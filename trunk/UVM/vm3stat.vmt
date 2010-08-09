@@ -1,0 +1,1066 @@
+
+[General]
+inifile=D:\UVM\UVM.ini
+EncryptedIni=0
+EncryptedReport=0
+SubMode=0
+Version=3.2 beta 2 a
+ReportNo=1
+CurrentStatus=normal
+SigninTime=2010-08-09 18:32:06
+ModalStatus=0
+AutoAssignEnd=1899-12-30 00:00:00
+Merits=699
+meritdate=2010-08-09
+First=0
+EndDate=2010-08-09
+EndTime=16:34:57
+CloseTime=2010-08-09 16:34:57
+ProgramUp=1899-12-30 02:00:10
+AutoRestart=0
+LastAction=Permission to Smoke One Cigarette denied
+LastActionTime=2010-08-09 13:54:40
+BeginMerits=624
+SubOutTime=1899-12-30 00:00:00
+LastInstructions=Sleep in your bed
+LastClothes=Shorts
+LastClothes=T-Shirt
+LastClothes=No Bra
+LastClothes=Regular Underwear
+
+[job-Exercise]
+Next=2010-08-11 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Body Grooming]
+Next=2010-08-14 15:49:53
+
+[job-Take out The Garbage]
+Next=2010-08-16 23:59:00
+NotifyTime=2010-08-09 23:59:00
+
+[job-General Cleaning]
+Next=2010-08-10 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Clean the kitchen]
+Next=2010-08-11 23:59:00
+NotifyTime=2010-08-09 23:59:00
+
+[job-Clean the bathroom]
+Next=2010-08-10 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Vacuum and mop the house]
+Next=2010-08-11 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Clean the living room]
+Next=2010-08-14 23:59:00
+NotifyTime=2010-08-11 23:59:00
+
+[job-Clean the side room]
+Next=2010-08-24 15:49:53
+NotifyTime=2010-08-17 15:49:53
+
+[job-Clean the bedroom]
+Next=2010-08-27 15:49:53
+NotifyTime=2010-08-20 15:49:53
+
+[job-Do a load of laundry]
+Next=2010-08-11 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Clean the garage or car]
+Next=2010-08-11 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[job-Do yard work]
+Next=2010-08-10 15:49:53
+NotifyTime=1899-12-30 00:00:00
+
+[timer-Evening]
+StartTime=2010-08-09 18:00:00
+EndTime=2010-08-09 23:59:00
+UseCount=4
+
+[Forms]
+QuestionFormL=35
+QuestionFormT=34
+QuestionFormW=473
+QuestionFormH=290
+InputFormL=53
+InputFormT=53
+InputFormW=435
+InputFormH=203
+DoRepFormL=207
+DoRepFormT=215
+DoRepFormW=399
+DoRepFormH=225
+DoPermFormL=109
+DoPermFormT=101
+DoPermFormW=396
+DoPermFormH=233
+CameraFormL=1025
+CameraFormT=358
+CameraFormW=462
+CameraFormH=447
+PunishmentFormL=350
+PunishmentFormT=161
+PunishmentFormW=357
+PunishmentFormH=321
+InstructionFormL=424
+InstructionFormT=323
+InstructionFormW=307
+InstructionFormH=473
+ClothRepFormL=182
+ClothRepFormT=198
+ClothRepFormW=683
+ClothRepFormH=516
+MainFormL=413
+MainFormT=139
+MainFormW=650
+MainFormH=470
+TaskFormL=62
+TaskFormT=62
+TaskFormW=586
+TaskFormH=438
+LineFormL=285
+LineFormT=183
+LineFormW=700
+LineFormH=480
+MemoFormL=79
+MemoFormT=79
+MemoFormW=454
+MemoFormH=275
+DoForgetFormL=214
+DoForgetFormT=94
+DoForgetFormW=372
+DoForgetFormH=206
+ClothEditFormL=100
+ClothEditFormT=104
+ClothEditFormW=480
+ClothEditFormH=477
+
+[WebCam]
+Device=ManyCam Video Source
+
+[Status-Normal]
+StartTime=2010-08-09 16:32:06
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+CameraPictureTime=1899-12-30 00:00:00
+
+[job-Brush Your Teeth]
+Next=2010-08-09 23:59:00
+
+[Counters]
+#Housing=1
+#Webcam=1
+#ClothingMale=1
+#ClothingFemale=0
+#ClothingCorset=1
+#pPublicHumiliation=0
+#pHogtie=1
+#eCollarAny=1
+#eCollarPosture=1
+#eBondageMittens=1
+#eBarSpreader=1
+#eBarX=0
+#pGag=1
+#eGagBall=1
+#eGagBallHarness=1
+#eGagBallPanel=1
+#eGagDrool=1
+#eGagInflatable=1
+#eGagMuzzle=1
+#eGagRing=0
+#eGagStuffed=1
+#eBelt=1
+#eNippleClamps=1
+#eNippleClampsClover=1
+#eWhip=1
+#eButtPlug=1
+#eButtPlugLarge=0
+#eDildo=1
+#eBlindfold=1
+#eHood=1
+#eChastityDevice=1
+#CrossDress=1
+#ClothCheck=0
+!WorkHours=1899-12-30 10:00:00
+#minCumMerits=900
+#minutes=37
+#zzPunishmentSeverity=6
+#NotWorn=10
+
+[procedure-cHouse]
+UseCount=3
+
+[procedure-cWebcamYes]
+UseCount=3
+
+[procedure-cClothingMaleYes]
+UseCount=3
+
+[procedure-cClothingFemaleNo]
+UseCount=3
+
+[procedure-cClothingCorsetYes]
+UseCount=3
+
+[procedure-cPublicHumiliationNo]
+UseCount=3
+
+[procedure-cHogtieYes]
+UseCount=3
+
+[procedure-cCollarAnyYes]
+UseCount=3
+
+[procedure-cCollarPostureYes]
+UseCount=3
+
+[procedure-cBondageMittensYes]
+UseCount=3
+
+[procedure-cBarSpreaderYes]
+UseCount=3
+
+[procedure-cBarXNo]
+UseCount=3
+
+[procedure-cGagYes]
+UseCount=3
+
+[procedure-cGagBallYes]
+UseCount=3
+
+[procedure-cGagBallHarnessYes]
+UseCount=3
+
+[procedure-cGagBallPanelYes]
+UseCount=3
+
+[procedure-cGagDroolYes]
+UseCount=3
+
+[procedure-cGagInflatableYes]
+UseCount=3
+
+[procedure-cGagMuzzleYes]
+UseCount=3
+
+[procedure-cGagRingNo]
+UseCount=3
+
+[procedure-cGagStuffedYes]
+UseCount=3
+
+[procedure-cBeltYes]
+UseCount=3
+
+[procedure-cNippleClampsYes]
+UseCount=3
+
+[procedure-cNippleClampsCloverYes]
+UseCount=3
+
+[procedure-cWhipYes]
+UseCount=3
+
+[procedure-cButtPlugYes]
+UseCount=3
+
+[procedure-cButtPlugLargeNo]
+UseCount=3
+
+[procedure-cDildoYes]
+UseCount=3
+
+[procedure-cBlindfoldYes]
+UseCount=3
+
+[procedure-cHoodYes]
+UseCount=3
+
+[procedure-cChastityDeviceYes]
+UseCount=3
+
+[procedure-Configuration]
+UseCount=3
+
+[flags]
+hot=2010-08-04 02:12:07
+clothingmale=2010-08-09 16:34:55
+
+[procedure-ClothingMale]
+UseCount=18
+
+[procedure-init]
+UseCount=18
+
+[procedure-StatusRefresh]
+UseCount=2760
+
+[procedure-RefreshCore]
+UseCount=18
+
+[Report-Did extra house or yard work]
+UseCount=0
+
+[permission-Smoke One Cigarette]
+DenyCount=1
+UseCount=1
+Next=2010-08-09 15:04:44
+
+[punishment-Wear bondage mittens for # hours]
+UseCount=0
+
+[popup-Message8]
+UseCount=3
+
+[popup-Message13]
+UseCount=1
+
+[report-Finished toilet]
+UseCount=0
+
+[report-TV is now turned off]
+UseCount=0
+
+[report-Done Browsing the Internet]
+UseCount=0
+
+[report-Finished my meal]
+UseCount=0
+
+[report-Finished bath]
+UseCount=0
+
+[report-Finished Cold Bath]
+UseCount=0
+
+[Report-Brought myself to the brink of orgasm]
+UseCount=0
+
+[Report-Had an orgasm]
+UseCount=0
+
+[report-SAFEWORD - BACK TO NORMAL]
+UseCount=0
+
+[report-RERUN CONFIGURATION]
+UseCount=0
+
+[report-Changed clothes]
+UseCount=0
+
+[report-Go to bed]
+UseCount=0
+
+[report-Up from bed]
+UseCount=0
+
+[report-Go to Work]
+UseCount=0
+
+[report-Home from job]
+UseCount=0
+
+[report-Leaving home]
+UseCount=0
+
+[report-Going to a Party]
+UseCount=0
+
+[report-Home again]
+UseCount=0
+
+[report-Receiving guests]
+UseCount=0
+
+[report-Guests have left]
+UseCount=0
+
+[Report-Ill or Going On Vacation]
+UseCount=0
+
+[report-No Longer Ill or On Vacation]
+UseCount=1
+
+[confession-Had an orgasm without permission]
+UseCount=0
+
+[confession-Did not wear exactly what was demanded of clothing]
+UseCount=0
+
+[confession-Did something wrong during a punishment]
+UseCount=0
+
+[]
+UseCount=0
+
+[permission-Go to the toilet]
+UseCount=0
+DenyCount=0
+Next=2010-08-05 13:46:54
+
+[permission-Watch TV or Play a Video Game]
+UseCount=0
+DenyCount=0
+Next=2010-08-06 15:56:27
+
+[permission-Browse the web / chat / play game]
+UseCount=0
+DenyCount=0
+Next=2010-08-06 14:07:56
+
+[permission-Eat]
+UseCount=0
+DenyCount=0
+
+[permission-Have a Snack]
+UseCount=0
+DenyCount=0
+
+[permission-Take a hot bath/shower]
+UseCount=0
+DenyCount=0
+Next=2010-08-06 04:33:24
+MustAllow=2010-08-06 20:33:24
+
+[permission-Have an orgasm]
+UseCount=0
+DenyCount=0
+
+[permission-Do Extra Work]
+UseCount=0
+DenyCount=0
+
+[permission-Sit on Furniture]
+UseCount=0
+DenyCount=0
+
+[permission-Drink One Glass of Juice]
+UseCount=0
+DenyCount=0
+
+[permission-Drink One Glass of Water]
+UseCount=0
+DenyCount=0
+
+[permission-Drink One Cup of Coffee/Tea]
+UseCount=1
+DenyCount=1
+Next=2010-08-09 14:00:07
+
+[permission-Drink One Soda/Energy Drink]
+UseCount=0
+DenyCount=0
+Next=2010-08-06 18:04:31
+
+[permission-Drink One Glass of Alcohol]
+UseCount=0
+DenyCount=0
+
+[punishment-Stand in the corner # minutes]
+UseCount=0
+
+[task-2010-08-04 00:00:50 Do yard work]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=30
+QuickPenalty2= 5.00000000000000E+0000
+Name=Do yard work
+title=Do yard work
+DurationLabel=Do yard work lasted
+MinTime=1899-12-30 00:15:00
+MaxTime=1899-12-30 00:15:00
+TaskClass=job
+Action=job-do yard work
+InitTime=2010-08-04 00:00:50
+DeadLine=2010-08-10 15:49:53
+RemindTime=2010-08-10 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=30
+RemindPenalty2=30
+NewStatus=Yard_work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=15
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[task-2010-08-04 00:00:51 Clean the bathroom]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=20
+QuickPenalty2= 1.00000000000000E+0001
+Name=Clean the bathroom
+title=Clean the bathroom
+DurationLabel=Clean the bathroom lasted
+MinTime=1899-12-30 00:10:00
+MaxTime=1899-12-30 00:10:00
+TaskClass=job
+Action=job-clean the bathroom
+InitTime=2010-08-04 00:00:51
+DeadLine=2010-08-10 15:49:53
+RemindTime=2010-08-10 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=20
+RemindPenalty2=20
+NewStatus=house_work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=10
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[task-2010-08-04 00:00:51 General Cleaning]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=20
+QuickPenalty2= 5.00000000000000E+0000
+Name=General Cleaning
+title=General Cleaning
+DurationLabel=General Cleaning lasted
+MinTime=1899-12-30 00:10:00
+MaxTime=1899-12-30 00:10:00
+TaskClass=job
+Action=job-general cleaning
+InitTime=2010-08-04 00:00:51
+DeadLine=2010-08-10 15:49:53
+RemindTime=2010-08-10 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=20
+RemindPenalty2=20
+NewStatus=house_work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=10
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[punishment-Give yourself # strokes with a belt]
+UseCount=0
+
+[popup-Message7]
+UseCount=3
+
+[status-Sleeping]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+OldNotice=Go to sleep you have 10 hours. Report when up.
+
+[ClothCheck]
+
+[Clothing-Sleep Hot]
+seed=-1448801981
+SeedDate=2010-08-06
+
+[procedure-SleepHot]
+UseCount=4
+
+[Instructions-Sleep]
+seed=-342508131
+SeedDate=2010-08-06
+
+[Clothing-Home Hot]
+seed=1891446659
+SeedDate=2010-08-07
+
+[procedure-HomeHot]
+UseCount=7
+
+[procedure-StayingHome]
+UseCount=4
+
+[procedure-Sound_Whip]
+UseCount=1
+
+[procedure-CleanEquipment]
+UseCount=9
+
+[punishment-Insert a small butt plug for # hours]
+UseCount=0
+
+[procedure-Time-up]
+UseCount=5
+
+[popup-Message0]
+UseCount=2
+
+[status-toilet]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+OldNotice={!zzStartTime} Use the toilet, you have 15 min. report to me when finished.
+
+[punishment-Give yourself # strokes with a spatula]
+UseCount=0
+
+[punishment-Give yourself # strokes with a wooden spoon]
+UseCount=0
+
+[popup-Message3]
+UseCount=1
+
+[procedure-Sound_Whack]
+UseCount=5
+
+[Clothing-Evening Hot]
+seed=-1851427780
+SeedDate=2010-08-07
+
+[procedure-EveHot]
+UseCount=4
+
+[procedure-VanillaEve]
+UseCount=4
+
+[status-Personal_Care]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+OldNotice=Report to me when finished.
+
+[procedure-PopupTaskSilly]
+UseCount=1
+
+[procedure-PopupTask]
+UseCount=2
+
+[popup-task]
+UseCount=2
+
+[status-Punishment]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+
+[popup-Message1]
+UseCount=3
+
+[popup-Message11]
+UseCount=1
+
+[task-2010-08-04 23:59:32 Clean the garage or car]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=30
+QuickPenalty2= 5.00000000000000E+0000
+Name=Clean the garage or car
+title=Clean the garage or car
+DurationLabel=Clean the garage or car lasted
+MinTime=1899-12-30 00:15:00
+MaxTime=1899-12-30 00:15:00
+TaskClass=job
+Action=job-clean the garage or car
+InitTime=2010-08-04 23:59:32
+DeadLine=2010-08-11 15:49:53
+RemindTime=2010-08-11 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=30
+RemindPenalty2=30
+NewStatus=Yard_Work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=15
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[task-2010-08-04 23:59:37 Vacuum and mop the house]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=20
+QuickPenalty2= 5.00000000000000E+0000
+Name=Vacuum and mop the house
+title=Vacuum and mop the house
+DurationLabel=Vacuum and mop the house lasted
+MinTime=1899-12-30 00:10:00
+MaxTime=1899-12-30 00:10:00
+TaskClass=job
+Action=job-vacuum and mop the house
+InitTime=2010-08-04 23:59:37
+DeadLine=2010-08-11 15:49:53
+RemindTime=2010-08-11 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=20
+RemindPenalty2=20
+StartProc=Sound_Vacuum
+NewStatus=house_work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=10
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[task-2010-08-04 23:59:38 Exercise]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=30
+QuickPenalty2= 5.00000000000000E+0000
+Name=Exercise
+title=Exercise
+DurationLabel=Exercise lasted
+MinTime=1899-12-30 00:15:00
+MaxTime=1899-12-30 00:15:00
+TaskClass=job
+Action=job-exercise
+InitTime=2010-08-04 23:59:38
+DeadLine=2010-08-11 15:49:53
+RemindTime=2010-08-11 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=30
+RemindPenalty2=30
+NewStatus=Personal_Care
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=15
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[Clothing-Sleep Warm]
+seed=674550001
+SeedDate=2010-08-05
+
+[popup-Message6]
+UseCount=2
+
+[punishment-Bind your legs for # hours]
+UseCount=0
+
+[procedure-Sound_Chain]
+UseCount=5
+
+[status-House_Work]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+OldNotice=Report to me when finished.
+
+[procedure-Sound_Kitchen]
+UseCount=2
+
+[procedure-AddWorkMerits]
+UseCount=5
+
+[procedure-Edging]
+UseCount=4
+
+[status-Hot_Bath]
+OldNotice=Take your bath/shower now.
+OldNotice={!zzStartTime} You have 30 minutes, to shower, dress and get ready.
+OldNotice=Report to me when finished.
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:30:00
+
+[ClothItem-Weave Shirt]
+Name=Weave Shirt
+Color=White
+Length=Short Sleeve
+Material=Cloth
+Style=Loose
+@@ClothType=Light Shirt
+
+[clothtype-Light Shirt]
+Items=Weave Shirt
+
+[ClothItem-Red Latex Underwear]
+Name=Red Latex Underwear
+Color=Red
+Material=Latex
+Style=Boyshorts
+@@ClothType=Underwear
+
+[clothtype-Underwear]
+Items=Red Latex Underwear
+
+[ClothItem-Nike Striped Shorts]
+Name=Nike Striped Shorts
+Color=Black
+Length=Above the Knee
+Material=Cloth
+@@ClothType=Shorts
+
+[clothtype-Shorts]
+Items=Nike Striped Shorts
+
+[clothtype-Cuffs]
+Items=Steel Ankle Cuffs
+Items=Steel Wrist Cuffs
+
+[ClothItem-Steel Wrist Cuffs]
+Name=Steel Wrist Cuffs
+material=Steel
+@@ClothType=Cuffs
+
+[ClothItem-Steel Ankle Cuffs]
+Name=Steel Ankle Cuffs
+material=Steel
+@@ClothType=Cuffs
+
+[CurrentCloth]
+
+[status-TV]
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 02:00:00
+OldNotice=You may now watch TV or play a video game for up to 2 hours. Time Passed: {!zzRunTime}
+OldNotice=Report when you have finished and turned everything off.
+
+[procedure-cWebcamNotice]
+UseCount=2
+
+[procedure-cCrossDressYes]
+UseCount=2
+
+[Clothing-Out Hot]
+seed=-765278346
+SeedDate=2010-08-05
+
+[punishment-Bind your hands in front for # hours]
+UseCount=0
+
+[punishment-Chain your collar to a post for # hours]
+UseCount=0
+
+[punishment-Spank yourself # times on your butt]
+UseCount=0
+
+[procedure-PopupTaskExercise]
+UseCount=1
+
+[status-Cold_Bath]
+OldNotice={!zzStartTime} Take a cold bath/shower now.
+OldNotice=You have 30 minutes, everything included.
+OldNotice=Report to me when finished.
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:30:00
+
+[popup-Message9]
+UseCount=1
+
+[Flags-Instructions-Sleep]
+
+[popup-Message12]
+UseCount=2
+
+[punishment-Wear a drool gag for # hours]
+UseCount=0
+
+[popup-Message4]
+UseCount=1
+
+[procedure-DeletePunishment]
+UseCount=3
+
+[flag-already_edged]
+StartTime=1899-12-30 00:00:00
+
+[popup-Message5]
+UseCount=1
+
+[popup-Feedback]
+UseCount=2
+
+[task-2010-08-06 17:49:54 Bind your hands in front for  3  hours]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+QuickPenalty1=0
+QuickPenalty2= 0.00000000000000E+0000
+Name=Bind your hands in front for  3  hours
+title=Bind your hands in front for  3  hours
+DurationLabel=Bind your hands in front for  3  hours lasted
+MinTime=1899-12-30 03:00:00
+MaxTime=1899-12-30 00:00:00
+MinTimeProc=Time-up
+TaskClass=punishment
+Action=punishment-bind your hands in front for # hours
+InitTime=2010-08-06 17:49:54
+DeadLine=2010-08-15 13:40:47
+RemindTime=2010-08-15 13:40:47
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 03:00:00
+RemindPenalty1=0
+RemindPenalty2=0
+StartProc=Sound_Chain
+DoneProc=CleanEquipment
+DeleteProc=DeletePunishment
+Reason=Ignore prohibition against Smoke One Cigarette
+FixedTime=1
+LongRunning=1
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=1
+LateMerits=0
+AddMerits=74
+Number=3
+ValueUnit=h
+OldNotice=Bind your hands together in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+Notice=Bind your hands together in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+StartFlags=PunishmentCamera
+resource=Hands
+
+[status-Guests]
+OldNotice=Report immediately when your guests have left
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+
+[procedure-VanillaHome]
+UseCount=2
+
+[WearingFlags]
+
+[task-2010-08-07 21:38:37 Do a load of laundry]
+ExpireTime=1899-12-30 00:00:00
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=6
+QuickPenalty2= 3.00000000000000E+0000
+Name=Do a load of laundry
+title=Do a load of laundry
+DurationLabel=Do a load of laundry lasted
+MinTime=1899-12-30 00:03:00
+MaxTime=1899-12-30 00:03:00
+TaskClass=job
+Action=job-do a load of laundry
+InitTime=2010-08-07 21:38:37
+DeadLine=2010-08-11 15:49:53
+RemindTime=2010-08-11 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=6
+RemindPenalty2=6
+NewStatus=house_work
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=3
+Number=0
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[ClothOnFlags]
+
+[status-Vacation]
+OldNotice=Report immediatly when feeling better or back from vacation.
+StartTime=1899-12-30 00:00:00
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+
+[task-2010-08-09 16:17:34 Body Grooming]
+ExpireTime=1899-12-30 00:00:00
+Notice=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+StartTime=1899-12-30 00:00:00
+SlowPenalty1=0
+SlowPenalty2= 0.00000000000000E+0000
+SlowProc=AddWorkMerits
+QuickPenalty1=30
+QuickPenalty2= 5.00000000000000E+0000
+Name=Body Grooming
+title=Body Grooming
+DurationLabel=Body Grooming lasted
+MinTime=1899-12-30 00:15:00
+MaxTime=1899-12-30 00:15:00
+TaskClass=job
+Action=job-body grooming
+InitTime=2010-08-09 16:17:34
+DeadLine=2010-08-14 15:49:53
+RemindTime=2010-08-14 15:49:53
+RemindInterval1=1899-12-31 00:00:00
+RemindInterval2=1899-12-31 00:00:00
+Estimate=1899-12-30 00:00:00
+RemindPenalty1=30
+RemindPenalty2=30
+NewStatus=Personal_Care
+FixedTime=0
+LongRunning=0
+MustStart=1
+DoneButton=1
+AutoAbort=0
+DeleteAllowed=0
+LateMerits=0
+AddMerits=15
+Number=0
+
+[flag-StatusRefresh]
+StartTime=2010-08-09 16:34:55
+MinTime=1899-12-30 00:00:00
+MaxTime=1899-12-30 00:00:00
+RemoveTime=2010-08-09 16:35:56
