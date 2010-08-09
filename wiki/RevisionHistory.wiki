@@ -1,0 +1,59 @@
+#summary Revision History and To-Do List
+#labels Featured,Phase-Requirements
+
+= Introduction =
+
+This list will contain all changes to UVM in previous and test versions. As well a To-Do list for the current test and/or future versions.
+
+
+= Details =
+== To-Do List ==
+  * Add scenario punishment and random popup scenario punishment.
+
+== Release Notes ==
+=== 1.0 Beta 3 ===
+  * Blindfold now sets sub into Punishment status.
+  * Blindfold now uses slot EYES instead of BLINDFOLD
+  * Hood now uses slot HEAD instead of BLINDFOLD
+  * Webcam configuration option added.
+  * Webcam public humiliation punishment added.
+  * New statuses added for Personal Care, Yard Work
+  * Deleting punishments will now result in additional merit loss.
+  * Multiple texts changed.
+  * Added support for crossdressing at home vs public.
+  * Clothing scenarios modified.
+
+=== 1.0 Beta 2 ===
+  * Work time now a duration instead of return time.
+  * Status readout changed to be clearer.
+  * Evening clothing now asks if you have guests.
+  * Added 2 hour check in to normal status.
+  * Added punishments use rice, crawling, spreader bars
+  * Added new instruction sets.
+  * Added public humiliations.
+  * Set max punishment for forgetting items.
+  * Added additional sounds.
+  * Added additional sleeping instructions.
+  * Added webcam support for punishments.
+  * Added going to a party report with merit deduction.
+  * Added configuration question "Do you live in a house or apartment?"
+  * Added report to rerun configuration. (Does not change Dom overrides)
+  * Unnecessary instruction sets hidden.
+  * Corrected unbalanced remind penalties.
+  * Added first games to random popups.
+  * Added and balanced check-in times.
+
+=== 1.0 Beta 1 ===
+  * Added first-run forced configuration.
+  * Punishment bind your legs together will now assign properly.
+  * Corrected spelling error on written punishments.
+  * Corsets will no longer be worn while sleeping.
+  * Added household punishments.
+  * Added nipple-clamp punishments.
+  * Added collar punishment.
+  * Removed unused configuration items.
+  * Added Permission for Internet Web/Chat/Games
+  * Added sounds to various activities.
+  * Updated for VM3.2B2
+  * Header reconfigured for VM3.2B2
+  * Bug in orgasm script corrected.
