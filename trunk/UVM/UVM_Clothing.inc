@@ -54,8 +54,8 @@
 	Askable=1
 	Change=Daily
 	set=BottomHomeHotFemale
-	set=BottomHotMale
-	set=TopHot
+	set=BottomHomeHotMale
+	set=TopHomeHot
 	Set=BraHome
 	set=Underwear
 	set=HeelsHome
@@ -117,8 +117,8 @@
 	Askable=1
 	Change=Daily
 	set=BottomHomeHotFemale
-	set=BottomHotMale
-	set=TopHot
+	set=BottomHomeHotMale
+	set=TopHomeHot
 	Set=BraHome
 	set=Underwear
 	set=HeelsHome
@@ -338,6 +338,19 @@
 				Check=Shorts
 			Option=Sundress
 				Check=Sundress
+			Option=No Pants
+
+[set-BottomHomeHotMale]
+	if=ClothingMale
+	IfNotChosen=Skirt
+	IfNotChosen=Mini-Skirt
+	IfNotChosen=Shorts
+	IfNotChosen=Sundress
+	Select=All
+		Choice=New
+			Option=Shorts
+				Check=Shorts
+			Option=No Pants
 
 
 [set-BottomHotMale]
@@ -445,6 +458,18 @@
 				Check=T-Shirt
 			Option=Tank Top
 				Check=TankTop
+
+[set-TopHomeHot]
+	IfNotChosen=SUndress
+	Select=All
+		Choice=New
+			Option=Light Shirt
+				Check=LightShirt
+			Option=T-Shirt
+				Check=T-Shirt
+			Option=Tank Top
+				Check=TankTop
+			Option=No Top
 
 [set-TopWarm]
 	IfNotChosen=Dress

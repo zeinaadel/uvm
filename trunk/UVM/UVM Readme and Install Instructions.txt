@@ -1,4 +1,4 @@
-Talven's Ultimate Virtual Mistress (UVM) v1.0 Beta 3
+Talven's Ultimate Virtual Mistress (UVM) v1.0 Beta 4
 by Talven Taurog
 
 This script uses the ultimate goal as being able to orgasm. (Details Below)
@@ -57,3 +57,20 @@ INSTALLATION INSTRUCTIONS
 	5. The script will run you through first time installation questions, then enjoy!
 
 ****************************************************************************************************
+
+Release Notes
+
+1.0 Beta 3
+  * Chain sound fixed.
+  * Toilet time reduced from 15m to 10m
+  * TV permission no longer requires 2h wait between requrests.
+  * Blindfold now sets sub into Punishment status. 
+  * Blindfold now uses slot EYES instead of BLINDFOLD 
+  * Hood now uses slot HEAD instead of BLINDFOLD 
+  * Webcam configuration option added. 
+  * Webcam public humiliation punishment added. 
+  * New statuses added for Personal Care, Yard Work 
+  * Deleting punishments will now result in additional merit loss. 
+  * Multiple texts changed. 
+  * Added support for crossdressing at home vs public. 
+  * Clothing scenarios modified. 

@@ -92,7 +92,7 @@
 ;* Sound Procedures
 ;*******************************************************************
 [procedure-Sound_Chain]
-	Suund=UVM_Sound_Chain.wav
+	Sound=UVM_Sound_Chain.wav
 
 [procedure-Sound_Gag]
 	Sound=UVM_Sound_Gag.wav
@@ -150,6 +150,7 @@
 	Question=cBlindfold
 	Question=cHood
 	Question=cChastityDevice
+	Message=Keep in mind, your first day will be easy so you can get used to the script, read through the RULES menu. Most of your tasks will be assigned on the second day.
 
 ;*** Clothing Questions ***
 

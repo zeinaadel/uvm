@@ -10,14 +10,13 @@
 	MaxWait=00:05
 	Notify=1
 	MinInterval=00:30
-	MaxTime=00:15
+	MaxTime=00:10
 	SlowPenalty1=10
 	SlowPenalty2=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [status-toilet]
 	Substatus=1
-	Text={!zzStartTime} Use the toilet, you have 15 min. report to me when finished.
+	Text={!zzStartTime} Use the toilet, you have 10 min. report to me when finished.
 
 ;************************************************************************
 ;*** Permission - TV
@@ -30,8 +29,6 @@
 	LowPct=37
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
-	MinInterval=2:00
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}.
 
 [status-TV]
 	group=home
@@ -63,7 +60,6 @@
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
 	MinInterval=2:00
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}.
 
 [status-Internet]
 	group=home
@@ -95,7 +91,6 @@
 	MaxWait=00:30
 	MinInterval=04:00
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Have a Snack]
 	instructions=eat
@@ -104,7 +99,6 @@
 	MaxWait=01:00
 	MinInterval=02:00
 	addmerits=-3
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [Instructions-Eat]
 	Askable=0
@@ -151,7 +145,6 @@
 	MinInterval=08:00
 	DenyStatus=Cold_bath
 	EndText=Finished bath
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [status-Hot_Bath]
 	SubStatus=1
@@ -190,7 +183,6 @@
 	MinInterval=24:00
 	SetFlag=permission_to_cum
 	instructions=orgasm
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [Instructions-Orgasm]
 	Askable=0
@@ -247,7 +239,6 @@
    	Delay=08:00
 	Message=I am assigning you extra General Cleaning.
 	Job=General Cleaning
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 ;*******************************************************************
 ;* Permissions - Sit
@@ -281,7 +272,6 @@
 	MaxWait=01:00
    	AddMerit=1
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Drink One Glass of Water]
    	PreStatus=home
@@ -290,7 +280,6 @@
    	Delay=00:05
 	MaxWait=01:00
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Drink One Cup of Coffee/Tea]
    	PreStatus=home
@@ -303,7 +292,6 @@
 	MaxWait=01:00
    	AddMerit=-1
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Drink One Soda/Energy Drink]
    	PreStatus=home
@@ -316,7 +304,6 @@
 	MaxWait=01:00
    	AddMerit=-3
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Drink One Glass of Alcohol]
    	PreStatus=home
@@ -329,7 +316,6 @@
 	MaxWait=02:00
    	AddMerit=-4
 	Notify=1
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
 
 [permission-Smoke One Cigarette]
 	PreStatus=home
@@ -342,4 +328,3 @@
    	MaxWait=02:00
    	Notify=1
    	AddMerit=-5
-	Text={$zzSubname} you last requested {$zzTitle} and I said {$zzAnswer}
