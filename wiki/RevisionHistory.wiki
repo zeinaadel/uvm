@@ -12,6 +12,9 @@ This list will contain all changes to UVM in previous and test versions. As well
 
 == Release Notes ==
 === 1.0 Beta 3 ===
+  * Chain sound fixed.
+  * Toilet time reduced from 15m to 10m
+  * TV permission no longer requires 2h wait between requests.
   * Blindfold now sets sub into Punishment status.
   * Blindfold now uses slot EYES instead of BLINDFOLD
   * Hood now uses slot HEAD instead of BLINDFOLD
