@@ -187,9 +187,8 @@
 	QuickPenalty1=6
 	QuickPenalty2=3
 	MaxTime=00:03
-	SlowProcedure=AddWorkMerits
 	RemindPenalty=6
-	AddMerit=3
+	AddMerit=5
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 ;*******************************************************************
