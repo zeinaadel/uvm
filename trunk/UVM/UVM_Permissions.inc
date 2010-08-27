@@ -217,14 +217,14 @@
 	message=This is VERY disappointing and defeats the whole purpose of my training. I will give you a severe punishment by setting your merits to 0.
 	;Option - Merits revert to 0 instead of 500
 	;set#=#deltamerits,0
-	;Option - Set merits to 0
-	;SetMerits=0
 	;OPtion- Subtract starting merits from current merits.
 	;subtract#=#deltamerits,#zzmerits
 	;Option - Punishment
 	punish=#zzmerits
 	PunishmentGroup=wanker
-
+	;Option - Set merits to 0
+	SetMerits=0
+	
 ;*******************************************************************
 ;* Permission - Extra Work
 ;*******************************************************************

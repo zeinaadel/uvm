@@ -92,10 +92,4 @@ INSTALLATION INSTRUCTIONS
 	4. Run VirMst3 and select the UVM.ini file.
 	5. The script will run you through first time installation questions, then enjoy!
 
-****************************************************************************************************
-
-Release Notes
-
-=== 1.0 Beta 4 ===
-  * Increased merit deduction for permission requests.
-  
+**************************************************************************************************** 

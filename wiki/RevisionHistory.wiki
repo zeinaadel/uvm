@@ -11,6 +11,11 @@ This list will contain all changes to UVM in previous and test versions. As well
   * Add scenario punishment and random popup scenario punishment.
 
 == Release Notes ==
+=== 1.0 Beta 4 ===
+  * Confessing to orgasm now reduces merits to 0 as intended.
+  * Laundry merits no longer increase after minimum time. Set merits to fixed +5 for this job.
+  * Increased merit deduction for permission requests.
+
 === 1.0 Beta 3 ===
   * Chain sound fixed.
   * Toilet time reduced from 15m to 10m
