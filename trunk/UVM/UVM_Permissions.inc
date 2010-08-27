@@ -98,7 +98,7 @@
 	Delay=00:02,00:30
 	MaxWait=01:00
 	MinInterval=02:00
-	addmerits=-3
+	addmerits=-10
 
 [Instructions-Eat]
 	Askable=0
@@ -290,7 +290,7 @@
    	MinInterval=00:15
    	Delay=00:05,00:30
 	MaxWait=01:00
-   	AddMerit=-1
+   	AddMerit=-5
 	Notify=1
 
 [permission-Drink One Soda/Energy Drink]
@@ -302,7 +302,7 @@
    	MinInterval=00:15
    	Delay=00:05,00:30
 	MaxWait=01:00
-   	AddMerit=-3
+   	AddMerit=-10
 	Notify=1
 
 [permission-Drink One Glass of Alcohol]
@@ -314,7 +314,7 @@
    	MinInterval=00:30
    	Delay=00:15,0:30
 	MaxWait=02:00
-   	AddMerit=-4
+   	AddMerit=-20
 	Notify=1
 
 [permission-Smoke One Cigarette]
@@ -327,4 +327,4 @@
    	Delay=00:05,00:15
    	MaxWait=02:00
    	Notify=1
-   	AddMerit=-5
+   	AddMerit=-15

@@ -7,6 +7,42 @@ THE MASTER/MISTRESS WILL NEED TO EDIT THE UVM_CONFIGURATION.INI TO FULLY CONFIGU
 
 SAFTEY ABOVE ALL ELSE
 
+=Disclaimer=
+TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL 
+THE SCRIPT WRITER BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL, 
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, 
+WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, CORRUPTION OR 
+LOSS OF DATA, FAILURE TO TRANSMIT OR RECEIVE ANY DATA, BUSINESS
+INTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT 
+OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE UVM SCRIPT AND 
+SERVICES OR ANY THIRD PARTY SOFTWARE OR APPLICATIONS IN CONJUNCTION 
+WITH THE UVM SCRIPT, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF 
+LIABILITY (CONTRACT, TORT OR OTHERWISE) AND EVEN IF THE SCRIPT WRITER 
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOU FURTHER 
+ACKNOWLEDGE THAT THE UVM SCRIPT IS NOT INTENDED OR SUITABLE FOR USE
+IN SITUATIONS OR ENVIRONMENTS WHERE THE FAILURE OR TIME DELAYS OF, OR 
+ERRORS OR INACCURACIES IN, THE CONTENT, DATA OR INFORMATION PROVIDED 
+BY THE UVM SCRIPT COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE 
+PHYSICAL OR ENVIRONMENTAL DAMAGE, INCLUDING WITHOUT LIMITATION THE 
+OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION 
+SYSTEMS, AIR TRAFFIC CONTROL, LIFE SUPPORT OR WEAPONS SYSTEMS.
+
+=Copyright Information=
+==Ultimate Virtual Mistress==
+===Copyright (C) 2010 Talven81===
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************************************
 
 A thank you to everyone who helped build this script:
@@ -60,17 +96,6 @@ INSTALLATION INSTRUCTIONS
 
 Release Notes
 
-1.0 Beta 3
-  * Chain sound fixed.
-  * Toilet time reduced from 15m to 10m
-  * TV permission no longer requires 2h wait between requrests.
-  * Blindfold now sets sub into Punishment status. 
-  * Blindfold now uses slot EYES instead of BLINDFOLD 
-  * Hood now uses slot HEAD instead of BLINDFOLD 
-  * Webcam configuration option added. 
-  * Webcam public humiliation punishment added. 
-  * New statuses added for Personal Care, Yard Work 
-  * Deleting punishments will now result in additional merit loss. 
-  * Multiple texts changed. 
-  * Added support for crossdressing at home vs public. 
-  * Clothing scenarios modified. 
+=== 1.0 Beta 4 ===
+  * Increased merit deduction for permission requests.
+  
