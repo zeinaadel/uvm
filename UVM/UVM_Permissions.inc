@@ -314,7 +314,7 @@
    	MinInterval=00:30
    	Delay=00:15,0:30
 	MaxWait=02:00
-   	AddMerit=-20
+   	AddMerit=-15
 	Notify=1
 
 [permission-Smoke One Cigarette]
@@ -327,4 +327,4 @@
    	Delay=00:05,00:15
    	MaxWait=02:00
    	Notify=1
-   	AddMerit=-15
+   	AddMerit=-5

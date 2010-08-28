@@ -31,7 +31,7 @@
 ;* Orgasm Without Permission
 ;*******************************************************************
 
-[punishment-You like touching yourself so much but you will go 1 day without touch AT ALL for ANY purpose]
+[punishment-You like touching yourself so much but you will go without touching AT ALL for ANY purpose]
 	group=wanker
 	GroupOnly=1
 	ValueUnit=day
