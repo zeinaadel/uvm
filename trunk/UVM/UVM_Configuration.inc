@@ -5,7 +5,7 @@
 	set#=#ClothCheck,0
 
 	;How many hours are allowed for work?
-		set!=!WorkHours,10:00
+		set!=!WorkHours,11:00
 
 	;How Many Credits Before Sub Can Come
 		set#=#minCumMerits,900

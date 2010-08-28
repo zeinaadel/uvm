@@ -1,17 +1,14 @@
-#summary Revision History and To-Do List
-#labels Featured,Phase-Requirements
+#summary Revision History
+#labels Featured
 
 = Introduction =
 
-This list will contain all changes to UVM in previous and test versions. As well a To-Do list for the current test and/or future versions.
-
-
-= Details =
-== To-Do List ==
-  * Add scenario punishment and random popup scenario punishment.
+This list will contain all changes to UVM in previous and test versions.
 
 == Release Notes ==
 === 1.0 Beta 4 ===
+  * Overall difficulty of reaching goal has been modified.
+  * Corrected multiple text readouts.
   * Confessing to orgasm now reduces merits to 0 as intended.
   * Laundry merits no longer increase after minimum time. Set merits to fixed +5 for this job.
   * Increased merit deduction for permission requests.

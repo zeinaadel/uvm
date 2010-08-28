@@ -1,3 +1,4 @@
+#summary Dominant Configuration Guide
 #labels Phase-Deploy,Phase-Support
 Dominant Configuration Guide
 
@@ -34,6 +35,10 @@ For UVM's purpose 0 is the lowest merits and 1000 is the highest. You may remove
 {{{
 	MinMerits=0
 	MaxMerits=1000
+}}}
+By default the merit bar is devided into 3 parts, RED, YELLOW, and GREEN. The sub starts with a default of 500 merits in the yellow, if the sub falls below 333 merits the bar will turn red, above 666 the bar turns green.
+When the bar is RED many permissions will be denied frequently or 100% of the time. Yellow is normal status. Green allows permissions to be permitted more often.
+{{{
 	Yellow=666
 	Red=333
 }}}
@@ -63,7 +68,7 @@ The TestMenu option should only be used for your own testing purposes. This is d
 == UVM_Configuration.inc ==
 This file provides several configuration options and overrides to a subs answer when they first start the program.
 
-The first option is ClothCheck, a very strict clothing option. Only set this to 1 if the sub is *bold*VERY WELL*bold* versed in using the clothing options within Virtual Master, this is not recommended for beginners. Turning this on will punish the slave for every item they are *bold*NOT*bold* wearing. Extra clothing that has not been mentioned is allowed.
+The first option is ClothCheck, a very strict clothing option. Only set this to 1 if the sub is *VERY WELL* versed in using the clothing options within Virtual Master, this is not recommended for beginners. Turning this on will punish the slave for every item they are *NOT* wearing. Extra clothing that has not been mentioned is allowed.
 {{{
 [procedure-init]
 	set#=#ClothCheck,0

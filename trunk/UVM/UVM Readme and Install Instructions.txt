@@ -93,3 +93,5 @@ INSTALLATION INSTRUCTIONS
 	5. The script will run you through first time installation questions, then enjoy!
 
 **************************************************************************************************** 
+Additional documentation can be found in the UVM wiki at http://code.google.com/p/uvm/w/list
+**************************************************************************************************** 
