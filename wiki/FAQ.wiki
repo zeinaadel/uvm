@@ -1,6 +1,5 @@
 #summary Frequently Asked Questions
-#labels Phase-Support
-Frequently Asked Questions
+#labels Phase-Support,Featured
 
 = Introduction =
 
