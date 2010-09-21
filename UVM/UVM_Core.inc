@@ -3,15 +3,15 @@
 ;*******************************************************************
 	TopText=Welcome {$zzSubname} to Talven's Ultimate Virtual Mistress {$zzSVersion}.
 	TopText=Remember when performing tasks or bondage SAFTEY ABOVE ALL ELSE!
-	TopText=--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	TopText=-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	TopText=This program will make sure you do sufficient activities before you are allowed an orgasm.
 	TopText=You will need at least {#minCumMerits} merits before you even get a chance. Remember, extra work gets you extra points!
 	TopText=Don't forget to sign in when necessary, by pressing reset in the lower right or you may be punished.
-	TopText=--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	TopText=-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	TopText=Today you started with {#zzBeginMerits} merit points you currently have {#zzMerits}.
 	TopText=The last punishment severity was: {#zzPunishmentSeverity}
 	TopText=You last asked to: {$zzPermission}
-	TopText=--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	TopText=-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	TopText=Status Messages:
 
 ;*******************************************************************
@@ -45,7 +45,7 @@
 
 [flag-StatusRefresh]
 	Duration=00:01
-	Test=0
+	ReportFlag=0
 	ExpireProcedure=StatusRefresh
 
 [procedure-ClothingMale]

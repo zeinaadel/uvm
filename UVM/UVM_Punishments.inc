@@ -447,7 +447,7 @@
 
 [punishment-You may not wear clothes at home for # days]
 	Respit=7d
-	group=humiliation
+	group=forcenaked
    	value=50
    	ValueUnit=day
    	LongRunning=1
