@@ -1,6 +1,6 @@
 Virtual Master Program version 3.2.
 
-June 2010.
+September 2010.
 
 Virtual Master is a program where you can design your own virtual Master or Mistress.
 
