@@ -13,6 +13,7 @@ This list will contain all changes to UVM in previous and test versions.
   * Laundry merits no longer increase after minimum time. Set merits to fixed +5 for this job.
   * Increased merit deduction for permission requests.
   * Status refresh no longer floods report.txt
+  * Adjusted ForgetPenalty and IgnorePenalty for permissions.
 
 === 1.0 Beta 3 ===
   * Chain sound fixed.

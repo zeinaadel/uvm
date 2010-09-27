@@ -29,16 +29,18 @@
 	LowPct=37
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
+	ForgetPenalty=120
+	IgnorePenalty=180
 
 [status-TV]
 	group=home
 	SigninInterval=01:00
 	SigninPenalty1=10
 	SigninPenalty2=1
-	MaxTime=02:00
+	MaxTime=04:00
 	SlowPenalty1=10
 	SlowPenalty2=1
-	text=You may now watch TV or play a video game for up to 2 hours. Time Passed: {!zzRunTime}
+	text=You may now watch TV or play a video game for up to 4 hours. Time Passed: {!zzRunTime}
 	text=Report when you have finished and turned everything off.
 
 [report-TV is now turned off]
@@ -60,6 +62,8 @@
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
 	MinInterval=2:00
+	ForgetPenalty=120
+	IgnorePenalty=180
 
 [status-Internet]
 	group=home
@@ -91,6 +95,8 @@
 	MaxWait=00:30
 	MinInterval=04:00
 	Notify=1
+	ForgetPenalty=60
+	IgnorePenalty=90
 
 [permission-Have a Snack]
 	instructions=eat
@@ -145,6 +151,8 @@
 	MinInterval=08:00
 	DenyStatus=Cold_bath
 	EndText=Finished bath
+	ForgetPenalty=60
+	IgnorePeanlty=90
 
 [status-Hot_Bath]
 	SubStatus=1
@@ -304,6 +312,8 @@
 	MaxWait=01:00
    	AddMerit=-10
 	Notify=1
+	ForgetPenalty=100
+	IgnorePenalty=150
 
 [permission-Drink One Glass of Alcohol]
    	PreStatus=home
@@ -316,6 +326,8 @@
 	MaxWait=02:00
    	AddMerit=-15
 	Notify=1
+	ForgetPenalty=150
+	IgnorePenalty=225
 
 [permission-Smoke One Cigarette]
 	PreStatus=home
