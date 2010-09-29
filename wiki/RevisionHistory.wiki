@@ -20,6 +20,7 @@ Note: Latest revision may only be available via SVN, instructions on the SOURCE 
   * Taking a hot shower now costs 10 merits.
   * Added post-laundry fold the laundry job.
   * Additional punishments now send the sub into Punishment status.
+  * Confessing to orgasm without permission will now result in only one punishment "go without touching yourself" and 50% will go towards normal punishments.
 
 === 1.0 Beta 3 ===
   * Chain sound fixed.

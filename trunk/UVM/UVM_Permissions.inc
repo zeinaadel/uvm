@@ -230,10 +230,16 @@
 	;OPtion- Subtract starting merits from current merits.
 	;subtract#=#deltamerits,#zzmerits
 	;Option - Punishment
+	procedure=BadOrgasm
 	punish=#zzmerits
 	PunishmentGroup=wanker
 	;Option - Set merits to 0
 	SetMerits=0
+	
+[procedure-BadOrgasm]
+	set#=#PunishMerits,#zzMerits
+	devide#=#PunishMerits,2
+	punish=#PunishMerits
 	
 ;*******************************************************************
 ;* Permission - Extra Work
