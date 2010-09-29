@@ -31,24 +31,24 @@
 ;* Orgasm Without Permission
 ;*******************************************************************
 
-[punishment-You like touching yourself so much but you will go without touching AT ALL for ANY purpose]
+[punishment-You will go without touching AT ALL for ANY purpose for # days]
 	group=wanker
 	GroupOnly=1
 	ValueUnit=day
 	value=10
 	maxpunishment=100
 	Forbid=Have an orgasm
-	Text=You are forbidden to touch yourself at all for any purpose for one day. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	Text=You will wear a chastity device if you have one.
+	Text=You are forbidden to touch yourself at all for any purpose for # day(s). | Duration: {!zzMinTime} | Completed: {!zzRunTime}
 	
 [punishment-You will be denied permission to cum for the next # days]
 	group=wanker
 	GroupOnly=1
-	value=50
-	ValueUnit=day
-	min=1
-	max=3		
+	value=10
+	ValueUnit=day	
 	Forbid=Have an orgasm
 	LongRunning=1
+	Text=You will wear a chastity device if you have one.
 	Text=You are denied permission to cum. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 ;*******************************************************************
