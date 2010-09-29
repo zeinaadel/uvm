@@ -178,7 +178,7 @@
 [punishment-Give yourself # strokes with a whip]
 	Respit=7d
 	notif=#eWhip=0
-	value=5
+	value=3
 	max=30
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -389,7 +389,7 @@
 	Respit=7d
 	notif=#eDildo=0
 	group=humiliation
-	value=20
+	value=5
 	ValueUnit=minute
 	max=5
 	resource=Gag
@@ -403,6 +403,7 @@
 
 [punishment-Sit in the closet for # minutes]
 	Respit=7d
+	NewStatus=Punishment
 	group=humiliation
 	value=5
 	ValueUnit=minute
@@ -475,7 +476,7 @@
 
 [punishment-You will not wear any underwear for a day]
 	Respit=7d
-	group=humiliation
+	group=ForceNaked
 	value=5
 	ValueUnit=day
 	min=1
@@ -616,6 +617,7 @@
 	resource=Legs
 	Text=Bind your legs with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -634,6 +636,7 @@
 	Resource=Hands
 	Text=Bind your hands with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -651,6 +654,7 @@
 	resource=Legs
 	Text=Shackle your legs together. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -686,6 +690,7 @@
 	resource=Hands
 	Text=Wear bondage mittens. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	Accumulative=1
 	MinTimeProcedure=Time-up
@@ -702,6 +707,7 @@
 	resource=Hands
 	Text=Bind your hands together in back. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -721,6 +727,7 @@
 	resource=Hands
 	Text=Bind your hands to your collar in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -740,6 +747,7 @@
 	resource=Hands
 	Text=Bind your hands to your collar in back.  | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
+   	NewStatus=Punishment
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Chain
 	Accumulative=1
@@ -834,6 +842,7 @@
 	StartFlag=PunishmentCamera
 	StartProcedure=Sound_Gag
 	Accumulative=1
+	NewStatus=Punishment
 	MinTimeProcedure=Time-up
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment

@@ -26,7 +26,7 @@
 
 [report-Changed clothes]
    	PreStatus=Normal
-   	ClothReport=What are you wearing now?
+   	Procedure=ClothReport
 
 [Report-Did extra house or yard work]
 	PreStatus=Normal
@@ -41,7 +41,7 @@
 	PreStatus=normal
    	NewStatus=sleeping
 	Question=SleepCold
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
    	instructions=Sleep
 
 [status-Sleeping]
@@ -52,7 +52,7 @@
    	PreStatus=sleeping
    	NewStatus=normal
 	Question=StayingHome
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 
 [Instructions-Sleep]
 	Askable=0
@@ -82,7 +82,6 @@
    NewStatus=On_job
    Clothing=Work
 
-
 [status-On_job]
 	text=Go to work now.
 	text=Report immediately when you are back.
@@ -98,7 +97,7 @@
 	input=Did you come directly home from work?
 	NoInputProcedure=NoInput
 	Question=EveCold
-	ClothReport=What are you wearing?	
+	Procedure=ClothReport	
 
 ;*******************************************************************
 ;* Status - Going out
@@ -110,14 +109,14 @@
 	PreStatus=Normal
 	NewStatus=Out
 	Question=OutCold
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 
 [report-Going to a Party]
 	DenyBelow=#zzRed
 	PreStatus=Normal
 	NewStatus=Out
 	Question=OutCold
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 	AddMerits=-75
 
 [report-Home again]
@@ -125,7 +124,7 @@
 	NewStatus=Normal
 	OnTop=1
 	question=VanillaGuests
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 
 ;************************************************************************
 ;* Status - Guests
@@ -134,7 +133,7 @@
 	PreStatus=home
 	NewStatus=Guests
 	question=VanillaGuests
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 	PgmAction=Minimize
 
 [status-Guests]
@@ -148,7 +147,7 @@
 	input=Who were the guest(s)?
 	NoInputProcedure=NoInput
 	Question=HomeCold
-	ClothReport=What are you wearing?
+	Procedure=ClothReport
 
 ;************************************************************************
 ;* Status - Ill or Going On Vacation

@@ -29,6 +29,7 @@
 	LowPct=37
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
+	Addmerit=-40
 	ForgetPenalty=120
 	IgnorePenalty=180
 
@@ -151,6 +152,7 @@
 	MinInterval=08:00
 	DenyStatus=Cold_bath
 	EndText=Finished bath
+	Addmerit=-10
 	ForgetPenalty=60
 	IgnorePeanlty=90
 
