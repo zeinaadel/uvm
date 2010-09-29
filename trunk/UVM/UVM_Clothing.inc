@@ -24,10 +24,13 @@
 	Question=EveCold
 
 [timer-Evening]
-	notif=forcenaked
 	Start=18:00
 	End=23:59
 	Question=VanillaGuests
+	Procedure=ClothReport
+	
+[procedure-ClothReport]	
+	notif=forcenaked
 	ClothReport=What are you wearing?
 
 [procedure-CheckOn]

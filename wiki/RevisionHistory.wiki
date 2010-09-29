@@ -5,6 +5,8 @@
 
 This list will contain all changes to UVM in previous and test versions.
 
+Note: Latest revision may only be available via SVN, instructions on the SOURCE tab. Downloads will not be made available until the script is verified to be working and stable.
+
 == Release Notes ==
 === 1.0 Beta 4 ===
   * Overall difficulty of reaching goal has been modified.
@@ -14,6 +16,10 @@ This list will contain all changes to UVM in previous and test versions.
   * Increased merit deduction for permission requests.
   * Status refresh no longer floods report.txt
   * Adjusted ForgetPenalty and IgnorePenalty for permissions.
+  * Watching TV now costs 40 merits, time increased to 4 hours.
+  * Taking a hot shower now costs 10 merits.
+  * Added post-laundry fold the laundry job.
+  * Additional punishments now send the sub into Punishment status.
 
 === 1.0 Beta 3 ===
   * Chain sound fixed.

@@ -185,10 +185,26 @@
 	muststart=1
 	MinTime=00:03
 	QuickPenalty1=6
-	QuickPenalty2=3
+	QuickPenalty2=5
 	MaxTime=00:03
 	RemindPenalty=6
 	AddMerit=5
+	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	DoneProcedure=FoldLaundry
+	
+[procedure-FoldLaundry]
+	Job=Fold the Laundry
+	
+[job-Fold the Laundry]
+	respit=01:30
+	NewStatus=house_work
+	muststart=1
+	MinTime=00:10
+	MaxTime=00:15
+	QuickPenalty1=20
+	QuickPenalty2=5
+	RemindPenalty=10
+	AddMerit=10
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 ;*******************************************************************
