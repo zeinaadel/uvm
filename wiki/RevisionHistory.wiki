@@ -8,6 +8,12 @@ This list will contain all changes to UVM in previous and test versions.
 Note: Latest revision may only be available via SVN, instructions on the SOURCE tab. Downloads will not be made available until the script is verified to be working and stable.
 
 == Release Notes ==
+=== 1.0 Beta 5 ===
+  * Corrected bathroom privilage not punishing if over time limit.
+  * TV is now a substatus.
+  * Hot shower no longer requires prestatus normal.
+  * Added permission cold bath.
+
 === 1.0 Beta 4 ===
   * Overall difficulty of reaching goal has been modified.
   * Corrected multiple text readouts.
