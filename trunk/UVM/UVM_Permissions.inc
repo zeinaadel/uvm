@@ -23,7 +23,7 @@
 ;************************************************************************
 [permission-Watch TV or Play a Video Game]
 	PreStatus=normal
-	NewSubStatus=TV
+	NewStatus=TV
   	pct=75
 	LowMerits=#zzYellow
 	LowPct=37
@@ -34,7 +34,6 @@
 	IgnorePenalty=180
 
 [status-TV]
-	Substatus=1
 	group=home
 	SigninInterval=01:00
 	SigninPenalty1=10
@@ -142,6 +141,7 @@
 ;************************************************************************
 [permission-Take a hot bath/shower]
 	DenyIf=ColdShower
+	PreStatus=Normal
 	NewSubStatus=Hot_bath
 	pct=90
 	LowMerits=#zzYellow
@@ -157,6 +157,7 @@
 	IgnorePeanlty=90
 	
 [permission-Take a cold bath/shower]
+	PreStatus=Normal
 	NewSubStatus=Cold_Bath
 	Pct=100
 	Delay=08:00

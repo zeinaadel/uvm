@@ -10,9 +10,9 @@ Note: Latest revision may only be available via SVN, instructions on the SOURCE 
 == Release Notes ==
 === 1.0 Beta 5 ===
   * Corrected bathroom privilage not punishing if over time limit.
-  * TV is now a substatus.
-  * Hot shower no longer requires prestatus normal.
   * Added permission cold bath.
+  * Balanced punishments.
+  * Written punishments are no longer in their own group.
 
 === 1.0 Beta 4 ===
   * Overall difficulty of reaching goal has been modified.
