@@ -162,27 +162,27 @@
 	Delay=08:00
 	MaxWait=24:00
 	MinInterval=08:00
-	EndText=Finished bath
+	EndText=Finished cold bath
 
 [status-Hot_Bath]
 	SubStatus=1
 	text=Take your bath/shower now.
-	text={!zzStartTime} You have 30 minutes, to shower, dress and get ready.
+	text=You have 30 minutes, to shower, dress and get ready. {!zzRunTime}
 	text=Report to me when finished.
 	MaxTime=00:30
 	SlowPenalty1=10
 	SlowPenalty2=1
 
-[report-Finished Cold Bath]
-	PreStatus=Cold_Bath
-	NewStatus=Normal
-	ontop=1
-	rules=0
+;[report-Finished Cold Bath]
+;	PreStatus=Cold_Bath
+;	NewStatus=Normal
+;	ontop=1
+;	rules=0
 
 [status-Cold_Bath]
 	SubStatus=1
 	text={!zzStartTime} Take a cold bath/shower now.
-	text=You have 30 minutes, everything included.
+	text=You have 30 minutes, to shower, dress and get ready. {!zzRunTime}
 	text=Report to me when finished.
 	MaxTime=00:30
 	SlowPenalty1=10
