@@ -10,12 +10,12 @@
 	MaxWait=00:05
 	Notify=1
 	MinInterval=00:30
-	MaxTime=00:10
-	SlowPenalty1=10
-	SlowPenalty2=1
 
 [status-toilet]
 	Substatus=1
+	MaxTime=00:10
+	SlowPenalty1=10
+	SlowPenalty2=1
 	Text={!zzStartTime} Use the toilet, you have 10 min. report to me when finished.
 
 ;************************************************************************
@@ -23,7 +23,7 @@
 ;************************************************************************
 [permission-Watch TV or Play a Video Game]
 	PreStatus=normal
-	NewStatus=TV
+	NewSubStatus=TV
   	pct=75
 	LowMerits=#zzYellow
 	LowPct=37
@@ -34,6 +34,7 @@
 	IgnorePenalty=180
 
 [status-TV]
+	Substatus=1
 	group=home
 	SigninInterval=01:00
 	SigninPenalty1=10
@@ -137,10 +138,9 @@
 	rules=0
 
 ;************************************************************************
-;* Permission - Hot bath
+;* Permission - Bath / Shower
 ;************************************************************************
 [permission-Take a hot bath/shower]
-	PreStatus=normal
 	DenyIf=ColdShower
 	NewSubStatus=Hot_bath
 	pct=90
@@ -155,6 +155,14 @@
 	Addmerit=-10
 	ForgetPenalty=60
 	IgnorePeanlty=90
+	
+[permission-Take a cold bath/shower]
+	NewSubStatus=Cold_Bath
+	Pct=100
+	Delay=08:00
+	MaxWait=24:00
+	MinInterval=08:00
+	EndText=Finished bath
 
 [status-Hot_Bath]
 	SubStatus=1
