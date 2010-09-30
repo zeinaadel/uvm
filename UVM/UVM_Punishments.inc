@@ -56,7 +56,6 @@
 ;*******************************************************************
 [punishment-Write # times:]
 	Respit=7d
-	group=written
    	value=1
    	max=100
    	NewStatus=Punishment
@@ -190,7 +189,7 @@
 
 [punishment-Give yourself # strokes with a wooden spoon]
 	Respit=7d
-	value=5
+	value=2
 	max=30
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -202,7 +201,7 @@
 
 [punishment-Give yourself # strokes with a spatula]
 	Respit=7d
-	value=5
+	value=2
 	max=30
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -719,7 +718,7 @@
 [punishment-Bind your hands to your collar for # hours]
 	Respit=7d
 	notif=#eCollarAny=0
-	value=60
+	value=30
 	ValueUnit=hour
 	LongRunning=1
 	max=4
@@ -851,7 +850,7 @@
 [punishment-Insert a small butt plug for # hours]
 	Respit=7d
 	notif=#eButtPlug=0
-	value=20
+	value=10
 	ValueUnit=hour
 	LongRunning=1
 	max=4
@@ -868,7 +867,7 @@
 [punishment-Insert a large butt plug for # hours]
 	Respit=7d
 	notif=#eButtPlugLarge=0
-	value=20
+	value=15
 	ValueUnit=hour
 	LongRunning=1
 	max=4
