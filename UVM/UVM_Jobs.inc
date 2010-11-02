@@ -196,7 +196,7 @@
 	Job=Fold the Laundry
 	
 [job-Fold the Laundry]
-	respit=01:30
+	respit=02:30
 	NewStatus=house_work
 	muststart=1
 	MinTime=00:10

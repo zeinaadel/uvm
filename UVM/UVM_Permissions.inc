@@ -29,7 +29,7 @@
 	LowPct=37
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
-	Addmerit=-40
+	Addmerit=-30
 	ForgetPenalty=120
 	IgnorePenalty=180
 
