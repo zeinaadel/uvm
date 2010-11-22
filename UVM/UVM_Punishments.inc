@@ -88,7 +88,7 @@
 	Respit=7d
 	group=pain
 	value=2
-	min=10
+	min=5
 	max=30
 	MustStart=1
 	StartProcedure=Sound_Whack
@@ -202,6 +202,7 @@
 [punishment-Give yourself # strokes with a spatula]
 	Respit=7d
 	value=2
+	min=5
 	max=30
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -885,7 +886,7 @@
 	Respit=7d
 	notif=#eChastityDevice=0
 	StartFlag=Chaste
-   	value=75
+   	value=25
    	ValueUnit=day
    	LongRunning=1
    	resource=Chastity

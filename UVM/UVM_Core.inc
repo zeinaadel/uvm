@@ -57,7 +57,7 @@
 	SetFlag=ClothingFemale
 
 [procedure-Webcam]
-	if=#Webcam=1
+	notif=#Webcam=0
 	PoseCamera=Pose for your webcam.
 	
 	
@@ -127,9 +127,6 @@
 	Question=cPublicHumiliation
 	Question=cHogtie
 	Question=cCollarAny
-	ShowPicture=UVMImagePostureCollar.jpg
-	Question=cCollarPosture
-	RemovePicture=UVMImagePostureCollar.jpg
 	ShowPicture=UVMImageBondageMittens.jpg
 	Question=cBondageMittens
 	RemovePicture=UVMImageBondageMittens.jpg
@@ -138,31 +135,8 @@
 	RemovePicture=UVMImageSpreaderBar.jpg
 	Question=cBarX
 	Question=cGag
-	Question=cGagBall
-	ShowPicture=UVMImageHarnessBallGag.jpg
-	Question=cGagBallHarness
-	RemovePicture=UVMImageHarnessBallGag.jpg
-	ShowPicture=UVMImagePanelBallGag.jpg
-	Question=cGagBallPanel
-	RemovePicture=UVMImagePanelBallGag.jpg
-	ShowPicture=UVMImageDroolGag.jpg
-	Question=cGagDrool
-	RemovePicture=UVMImageDroolGag.jpg
-	ShowPicture=UVMImageInflatableGag.jpg
-	Question=cGagInflatable
-	RemovePicture=UVMImageInflatableGag.jpg
-	Question=cGagMuzzle
-	ShowPicture=UVMImageRingGag.jpg
-	Question=cGagRing
-	RemovePicture=UVMImageRingGag.jpg
-	ShowPicture=UVMImageStuffedGag.jpg
-	Question=cGagStuffed
-	RemovePicture=UVMImageStuffedGag.jpg
 	Question=cBelt
 	Question=cNippleClamps
-	ShowPicture=UVMImageCloverNippleClamps.jpg
-	Question=cNippleClampsClover
-	RemovePicture=UVMImageCloverNippleClamps.jpg
 	Question=cWhip
 	Question=cButtPlug
 	Question=cButtPlugLarge
@@ -172,7 +146,7 @@
 	Question=cChastityDevice
 	Message=Keep in mind, your first day will be easy so you can get used to the script, read through the RULES menu. Most of your tasks will be assigned on the second day.
 
-;*** Clothing Questions ***
+;*** General Questions ***
 
 [question-cHousing]
 	Text=Do you live in an apartment or house?
@@ -282,6 +256,26 @@
 
 [procedure-cGagYes]
 	set#=#pGag,1
+	Question=cGagBall
+	ShowPicture=UVMImageHarnessBallGag.jpg
+	Question=cGagBallHarness
+	RemovePicture=UVMImageHarnessBallGag.jpg
+	ShowPicture=UVMImagePanelBallGag.jpg
+	Question=cGagBallPanel
+	RemovePicture=UVMImagePanelBallGag.jpg
+	ShowPicture=UVMImageDroolGag.jpg
+	Question=cGagDrool
+	RemovePicture=UVMImageDroolGag.jpg
+	ShowPicture=UVMImageInflatableGag.jpg
+	Question=cGagInflatable
+	RemovePicture=UVMImageInflatableGag.jpg
+	Question=cGagMuzzle
+	ShowPicture=UVMImageRingGag.jpg
+	Question=cGagRing
+	RemovePicture=UVMImageRingGag.jpg
+	ShowPicture=UVMImageStuffedGag.jpg
+	Question=cGagStuffed
+	RemovePicture=UVMImageStuffedGag.jpg
 
 [procedure-cGagNo]
 	set#=#pGag,0
@@ -296,11 +290,15 @@
 
 [procedure-cCollarAnyYes]
 	set#=#eCollarAny,1
+	ShowPicture=UVMImagePostureCollar.jpg
+	Question=cCollarPosture
+	RemovePicture=UVMImagePostureCollar.jpg
 
 [procedure-cCollarAnyNo]
 	set#=#eCollarAny,0
 
 [question-cCollarPosture]
+	NotIf=#eCollarAny,0
 	Text=Do you have a posture collar?
 	?Yes=cCollarPostureYes
 	?No=cCollarPostureNo
@@ -349,6 +347,7 @@
 	set#=#eBarX,0
 
 [question-cGagBall]
+	NotIf=#pGag,0
 	Text=Do you have a ball gag?
 	?Yes=cGagBallYes
 	?No=cGagBallNo
@@ -361,6 +360,7 @@
 	set#=#eGagBall,0
 
 [question-cGagBallHarness]
+	NotIf=#pGag,0
 	Text=Do you have a harness ball gag?
 	?Yes=cGagBallHarnessYes
 	?No=cGagBallHarnessNo
@@ -373,6 +373,7 @@
 	set#=#eGagBallHarness,0
 
 [question-cGagBallPanel]
+	NotIf=#pGag,0
 	Text=Do you have a panel ball gag?
 	?Yes=cGagBallPanelYes
 	?No=cGagBallPanelNo
@@ -385,6 +386,7 @@
 	set#=#eGagBallPanel,0
 
 [question-cGagDrool]
+	NotIf=#pGag,0
 	Text=Do you have a drool gag?
 	?Yes=cGagDroolYes
 	?No=cGagDroolNo
@@ -397,6 +399,7 @@
 	set#=#eGagDrool,0
 
 [question-cGagInflatable]
+	NotIf=#pGag,0
 	Text=Do you have an inflatable gag?
 	?Yes=cGagInflatableYes
 	?No=cGagInflatableNo
@@ -409,6 +412,7 @@
 	set#=#eGagInflatable,0
 
 [question-cGagMuzzle]
+	NotIf=#pGag,0
 	Text=Do you have a muzzle gag?
 	?Yes=cGagMuzzleYes
 	?No=cGagMuzzleNo
@@ -421,6 +425,7 @@
 	set#=#eGagMuzzle,0
 
 [question-cGagRing]
+	NotIf=#pGag,0
 	Text=Do you have a ring gag?
 	?Yes=cGagRingYes
 	?No=cGagRingNo
@@ -433,6 +438,7 @@
 	set#=#eGagRing,0
 
 [question-cGagStuffed]
+	NotIf=#pGag,0
 	Text=Do you have a stuffed gag?
 	?Yes=cGagStuffedYes
 	?No=cGagStuffedNo
@@ -464,11 +470,15 @@
 
 [procedure-cNippleClampsYes]
 	set#=#eNippleClamps,1
+	ShowPicture=UVMImageCloverNippleClamps.jpg
+	Question=cNippleClampsClover
+	RemovePicture=UVMImageCloverNippleClamps.jpg
 
 [procedure-cNippleClampsNo]
 	set#=#eNippleClamps,0
 
 [question-cNippleClampsClover]
+	NotIf=#eNippleClamps,0
 	Text=Do you have clover nipple clamps?
 	?Yes=cNippleClampsCloverYes
 	?No=cNippleClampsCloverNo
