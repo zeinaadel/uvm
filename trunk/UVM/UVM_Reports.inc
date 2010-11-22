@@ -28,7 +28,7 @@
    	PreStatus=Normal
    	Procedure=ClothReport
 
-[Report-Did extra house or yard work]
+[Report-BETA ONLY-Did extra house or yard work]
 	PreStatus=Normal
 	input#=#minutes,How many minutes did you do extra house work?
 	multiply#=#minutes,1
@@ -47,6 +47,9 @@
 [status-Sleeping]
    	group=home
    	Text=Go to sleep you have 10 hours. Report when up.
+   	MaxTime=!WorkHours
+	SlowPenalty1=10
+	SlowPenalty2=1
 
 [report-Up from bed]
    	PreStatus=sleeping
