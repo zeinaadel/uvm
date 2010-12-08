@@ -233,7 +233,7 @@
 	AddMerit=10
 
 [confession-Had an orgasm without permission]
-	message=This is VERY disappointing and defeats the whole purpose of my training. I will give you a severe punishment by setting your merits to 0.
+	message=This is VERY disappointing and defeats the whole purpose of my training. I will give you a severe punishment and set your merits to 0.
 	;Option - Merits revert to 0 instead of 500
 	;set#=#deltamerits,0
 	;OPtion- Subtract starting merits from current merits.

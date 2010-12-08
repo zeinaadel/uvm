@@ -14,17 +14,17 @@
 
 [question-VanillaGuests]
 	Text=Are there vanilla guests here?
-	?Yes=VanillaHome
-	?No=VanillaEve
+	?Yes=VanillaYes
+	?No=VanillaNo
 
-[procedure-VanillaHome]
+[procedure-VanillaNo]
 	Question=HomeCold
 
-[procedure-VanillaEve]
-	Question=EveCold
+[procedure-VanillaYes]
+	Question=OutCold
 
-[timer-Evening]
-	Start=18:00
+[timer-Clothing]
+	Start=08:00
 	End=23:59
 	Question=VanillaGuests
 	Procedure=ClothReport
@@ -65,6 +65,8 @@
 	set=HeelsHome
 	Set=Shoes
 	Set=Corset
+	Set=Collar
+	Set=Cuffs	
 
 [procedure-HomeWarm]
 	RemoveFlag=Hot
@@ -83,6 +85,8 @@
 	set=HeelsHome
 	Set=Shoes
 	Set=Corset
+	Set=Collar
+	Set=Cuffs
 
 [procedure-HomeCold]
 	RemoveFlag=Hot
@@ -101,75 +105,8 @@
 	set=HeelsHome
 	Set=Shoes
 	Set=Corset
-
-;*******************************************************************
-;* Evening Procedure
-;*******************************************************************
-[question-EveCold]
-	text=What is the temperature like?
-	?Hot=EveHot
-	?Warm=EveWarm
-	?Cold=EveCold
-
-[procedure-EveHot]
-	SetFlag=Hot
-	RemoveFlag=Warm
-	RemoveFlag=Cold
-	clothing=Evening Hot
-
-[Clothing-Evening Hot]
-	Askable=1
-	Change=Daily
-	set=BottomHomeHotFemale
-	set=BottomHomeHotMale
-	set=TopHomeHot
-	Set=BraHome
-	set=Underwear
-	set=HeelsHome
-	Set=Shoes
 	Set=Collar
 	Set=Cuffs
-	Set=Corset
-
-[procedure-EveWarm]
-	RemoveFlag=Hot
-	SetFlag=Warm
-	RemoveFlag=Cold
-	clothing=Evening Warm
-
-[Clothing-Evening Warm]
-	Askable=1
-	Change=Daily
-	set=BottomHomeWarmFemale
-	set=BottomWarmMale
-	set=TopWarm
-	Set=Bra
-	set=Underwear
-	set=HeelsHome
-	Set=Shoes
-	Set=Collar
-	Set=Cuffs
-	Set=Corset
-
-[procedure-EveCold]
-	RemoveFlag=Hot
-	RemoveFlag=Warm
-	SetFflag=Cold
-	Clothing=Evening Cold
-
-[Clothing-Evening Cold]
-	Askable=1
-	Change=Daily
-	set=BottomHomeColdFemale
-	set=BottomColdMale
-	set=TopCold
-	Set=BraHome
-	set=Underwear
-	set=HeelsHome
-	Set=Shoes
-	Set=Collar
-	Set=Cuffs
-	Set=Corset
 
 ;*******************************************************************
 ;* Leaving Procedure

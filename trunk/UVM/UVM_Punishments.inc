@@ -7,6 +7,27 @@
 
 [procedure-CleanEquipment]
 	Question=CleanEquipment
+	
+[procedure-AskCum]
+	question=AskCum
+
+[question-AskCum]
+	Phrase=Did you cum?
+	?Yes=CumPunish
+	?No=*
+	
+[procedure-CumPunish]
+	message=This is VERY disappointing and defeats the whole purpose of my training. I will give you a severe punishment and set your merits to 0.
+	;Option - Merits revert to 0 instead of 500
+	;set#=#deltamerits,0
+	;OPtion- Subtract starting merits from current merits.
+	;subtract#=#deltamerits,#zzmerits
+	;Option - Punishment
+	procedure=BadOrgasm
+	punish=#zzmerits
+	PunishmentGroup=wanker
+	;Option - Set merits to 0
+	SetMerits=0
 
 [question-CleanEquipment]
 	Phrase=Did you clean your equipment and put it away properly?
@@ -83,6 +104,19 @@
 ;*******************************************************************
 ;* Sadistic Punishments
 ;*******************************************************************
+[punishment-Tease yourself with a vibrator for # minutes DO NOT CUM]
+	Respit=7d
+	value=1
+   	ValueUnit=minute
+   	max=60
+   	NewStatus=Punishment
+   	Text=Tease yourself with a vibrator. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MinTimeProcedure=Time-up
+	MustStart=1
+	Accumulative=1
+	PunishmentDone=AskCum
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment
 
 [punishment-Spank yourself # times on your butt]
 	Respit=7d

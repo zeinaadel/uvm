@@ -120,8 +120,6 @@
 	Question=cHousing
 	Question=cWebcam
 	Procedure=cWebcamNotice
-	Question=cClothingMale
-	Question=cClothingFemale
 	Question=cCrossDress
 	Question=cClothingCorset
 	Question=cPublicHumiliation
@@ -174,6 +172,19 @@
 [procedure-cWebcamNotice]
 	if=#Webcam=1
 	Message=It is recommeded that you use ManyCam to prevent webcam program conflicts. This is a free download available at manycam.com
+
+[question-cSex]
+	Text=Are you male or female?
+	?Female=cFemale
+	?Male=cMale
+	
+[procedure-cFemale]
+	set#=#Sex,0
+	question=cClothingMale
+	
+[procedure-cMale]
+	set#=#Sex,1
+	question=cClothingFemale
 
 [question-cClothingMale]
 	Text=Do you want to wear male clothing in public?

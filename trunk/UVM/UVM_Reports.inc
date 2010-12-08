@@ -99,7 +99,7 @@
 	ontop=1
 	input=Did you come directly home from work?
 	NoInputProcedure=NoInput
-	Question=EveCold
+	Question=VanillaGuests
 	Procedure=ClothReport	
 
 ;*******************************************************************
@@ -137,7 +137,7 @@
 	NewStatus=Guests
 	question=VanillaGuests
 	Procedure=ClothReport
-	PgmAction=Minimize
+	PgmAction=Close
 
 [status-Guests]
 	group=home
