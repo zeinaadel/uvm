@@ -184,3 +184,7 @@
 	AddMerit=-50
 	multiply#=#zzPunishmentSeverity,2
 	punish=#zzPunishmentSeverity
+	
+[confession-Cursed at Virtual Mistress]
+	text=How dare you!
+	punish=100

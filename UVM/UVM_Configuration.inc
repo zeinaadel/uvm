@@ -10,7 +10,6 @@
 	;How Many Credits Before Sub Can Come
 		set#=#minCumMerits,900
 
-
 ;*******************************************************************
 ;* ADVANCED CONFIGURATION BELOW THIS LINE
 ;*******************************************************************
