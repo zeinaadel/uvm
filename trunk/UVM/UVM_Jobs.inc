@@ -186,7 +186,6 @@
 	MinTime=00:03
 	QuickPenalty1=6
 	QuickPenalty2=5
-	MaxTime=00:03
 	RemindPenalty=6
 	AddMerit=5
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}

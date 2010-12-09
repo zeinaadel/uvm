@@ -103,10 +103,10 @@
 	Set=BraHome
 	set=Underwear
 	set=HeelsHome
-	Set=Shoes
-	Set=Corset
-	Set=Collar
-	Set=Cuffs
+	set=Shoes
+	set=Corset
+	set=Collar
+	set=Cuffs
 
 ;*******************************************************************
 ;* Leaving Procedure
@@ -480,17 +480,22 @@
 				Check=Bra
 			Option=*
 
-[Set-Heels]
+[set-Heels]
 	if=ClothingFemale
 	Select=All
 		Choice=New
 			Option=Pumps
 				Check=Shoes
 				OptionSet=HeelHeight
+				OptionSet=Hosiery
 			Option=Sandals
 				Check=Shoes
 				OptionSet=HeelHeight
+				OptionSet=Hosiery
 			Option=*
+			
+[set-Hosiery]
+	if=ClothingFemale			
 		Choice=New
 			IfChosen=Pumps
 			IfChosen=Sandals
@@ -499,7 +504,7 @@
 			Option=Full-Length Pantyhose
 			Option=*
 
-[Set-HeelsHome]
+[set-HeelsHome]
 	if=ClothingFemale
 	if=#CrossDress=1
 	Select=All
@@ -507,10 +512,17 @@
 			Option=Pumps
 				Check=Shoes
 				OptionSet=HeelHeight
+				OptionSet=HosieryHome
 			Option=Sandals
 				Check=Shoes
 				OptionSet=HeelHeight
+				OptionSet=HosieryHome
 			Option=*
+
+[set-HosieryHome]
+	if=ClothingFemale
+	if=#CrossDress=1
+	Select=All
 		Choice=New
 			IfChosen=Pumps
 			IfChosen=Sandals
@@ -539,11 +551,16 @@
 		Choice=New
 			Option=Tennis Shoes
 				Check=Shoes
+				OptionSet=Socks
 			Option=Boots
 				Check=Shoes
+				OptionSet=Socks
 			Option=Dress Shoes
 				Check=Shoes
+				OptionSet=Socks
 			Option=*
+
+[set-Socks]
 		Choice=New
 			IfChosen=Tennis Shoes
 			IfChosen=Boots
