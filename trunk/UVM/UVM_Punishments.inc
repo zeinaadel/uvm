@@ -195,6 +195,42 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
+[punishment-Wear clover nipple clamps on your ears for # hours]
+	Respit=7d
+	notif=#eNippleClamps=0
+	notif=#eNippleClampsClover=0
+   	value=75
+   	ValueUnit=hour
+   	LongRunning=1
+   	max=2
+   	resource=Nipples
+   	Text=Wear clover nipple clamps on your ears. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MustStart=1
+	StartFlag=PunishmentCamera
+	Accumulative=1
+	MinTimeProcedure=Time-up
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment
+	DoneProcedure=CleanEquipment
+
+[punishment-Wear clover nipple clamps on your nose for # hours]
+	Respit=7d
+	notif=#eNippleClamps=0
+	notif=#eNippleClampsClover=0
+   	value=75
+   	ValueUnit=hour
+   	LongRunning=1
+   	max=2
+   	resource=Nipples
+   	Text=Wear clover nipple clamps on your nose. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MustStart=1
+	StartFlag=PunishmentCamera
+	Accumulative=1
+	MinTimeProcedure=Time-up
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment
+	DoneProcedure=CleanEquipment
+
 [punishment-Give yourself # strokes with a belt]
 	Respit=7d
 	notif=#eBelt=0
