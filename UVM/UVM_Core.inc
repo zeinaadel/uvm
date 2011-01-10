@@ -117,31 +117,70 @@
 ;*******************************************************************
 [procedure-Configuration]
 	Message=TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL THE SCRIPT WRITER BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, FAILURE TO TRANSMIT OR RECEIVE ANY DATA, BUSINESS INTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE UVM SCRIPT AND SERVICES OR ANY THIRD PARTY SOFTWARE OR APPLICATIONS IN CONJUNCTION WITH THE UVM SCRIPT, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT OR OTHERWISE) AND EVEN IF THE SCRIPT WRITER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. YOU FURTHER ACKNOWLEDGE THAT THE UVM SCRIPT IS NOT INTENDED OR SUITABLE FOR USE IN SITUATIONS OR ENVIRONMENTS WHERE THE FAILURE OR TIME DELAYS OF, OR ERRORS OR INACCURACIES IN, THE CONTENT, DATA OR INFORMATION PROVIDED BY THE UVM SCRIPT COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE, INCLUDING WITHOUT LIMITATION THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, LIFE SUPPORT OR WEAPONS SYSTEMS.
+	
 	Question=cHousing
+	
 	Question=cWebcam
 	Procedure=cWebcamNotice
+	
+	Question=cSex
+	
 	Question=cCrossDress
+	
+	ShowPicture=UVMImageCorset.jpg
 	Question=cClothingCorset
+	RemovePicture=UVMImageCorset.jpg
+	
 	Question=cPublicHumiliation
+	
+	ShowPicture=UVMImageHogtie.jpg
 	Question=cHogtie
+	RemovePicture=UVMImageHogtie.jpg
+	
 	Question=cCollarAny
+	
 	ShowPicture=UVMImageBondageMittens.jpg
 	Question=cBondageMittens
 	RemovePicture=UVMImageBondageMittens.jpg
+	
 	ShowPicture=UVMImageSpreaderBar.jpg
 	Question=cBarSpreader
 	RemovePicture=UVMImageSpreaderBar.jpg
+	
 	Question=cBarX
+	
 	Question=cGag
+	
 	Question=cBelt
+	
 	Question=cNippleClamps
+	
 	Question=cWhip
+	
+	ShowPicture=UVMImageSmallButtPlug.jpg
 	Question=cButtPlug
+	RemovePicture=UVMImageSmallButtPlug.jpg
+	
+	ShowPicture=UVMImageLargeButtPlug.jpg
 	Question=cButtPlugLarge
+	RemovePicture=UVMImageLargeButtPlug.jpg
+	
+	ShowPicture=UVMImageDildo.jpg
 	Question=cDildo
+	RemovePicture=UVMImageDildo.jpg
+	
+	ShowPicture=UVMImageBlindfold.jpg
 	Question=cBlindfold
+	RemovePicture=UVMImageBlindfold.jpg
+	
+	ShowPicture=UVMImageHood.jpg
 	Question=cHood
+	RemovePicture=UVMImageHood.jpg
+	
+	ShowPicture=UVMImageChastityDevice.jpg
 	Question=cChastityDevice
+	RemovePicture=UVMImageChastityDevice.jpg
+	
 	Message=Keep in mind, your first day will be easy so you can get used to the script, read through the RULES menu. Most of your tasks will be assigned on the second day.
 
 ;*** General Questions ***
@@ -267,7 +306,9 @@
 
 [procedure-cGagYes]
 	set#=#pGag,1
+	ShowPicture=UVMImageBallGag.jpg
 	Question=cGagBall
+	RemovePicture=UVMImageBallGag.jpg
 	ShowPicture=UVMImageHarnessBallGag.jpg
 	Question=cGagBallHarness
 	RemovePicture=UVMImageHarnessBallGag.jpg
@@ -280,7 +321,9 @@
 	ShowPicture=UVMImageInflatableGag.jpg
 	Question=cGagInflatable
 	RemovePicture=UVMImageInflatableGag.jpg
+	ShowPicture=UVMImageMuzzleGag.jpg
 	Question=cGagMuzzle
+	RemovePicture=UVMImageMuzzleGag.jpg
 	ShowPicture=UVMImageRingGag.jpg
 	Question=cGagRing
 	RemovePicture=UVMImageRingGag.jpg
