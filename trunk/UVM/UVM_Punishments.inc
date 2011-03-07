@@ -117,6 +117,20 @@
 	PunishmentDone=AskCum
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment
+	
+[punishment-Insert a vibrator into your ass for # minutes DO NOT CUM]
+	Respit=7d
+	value=1
+   	ValueUnit=minute
+   	max=60
+   	NewStatus=Punishment
+   	Text=Insert a vibrator into your ass. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MinTimeProcedure=Time-up
+	MustStart=1
+	Accumulative=1
+	PunishmentDone=AskCum
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment	
 
 [punishment-Spank yourself # times on your butt]
 	Respit=7d
@@ -130,6 +144,19 @@
 	Accumulative=1
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment
+	
+[punishment-Spank yourself # times on your inner thigh]
+	Respit=7d
+	group=pain
+	value=2
+	min=5
+	max=30
+	MustStart=1
+	StartProcedure=Sound_Whack
+	StartFlag=PunishmentCamera
+	Accumulative=1
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment	
 	
 [punishment-Kneel on rice for # minutes]
 	Respit=7d
@@ -470,6 +497,38 @@
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
+	
+[punishment-Suck on a dildo for # minutes]
+	Respit=7d
+	notif=#eDildo=0
+	group=humiliation
+	value=1
+	ValueUnit=minute
+	max=60
+	resource=Gag
+	Text=Suck on a dildo. No teeth!| Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MustStart=1
+	StartFlag=PunishmentCamera
+	MinTimeProcedure=Time-up
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment
+	DoneProcedure=CleanEquipment	
+	
+[punishment-Fuck your dildo for # minutes do not cum]
+	Respit=7d
+	notif=#eDildo=0
+	group=humiliation
+	value=1
+	ValueUnit=minute
+	max=60
+	resource=Gag
+	Text=Suck on a dildo. No teeth!| Duration: {!zzMinTime} | Completed: {!zzRunTime}
+   	MustStart=1
+	StartFlag=PunishmentCamera
+	MinTimeProcedure=Time-up
+	DeleteAllowed=1
+	DeleteProcedure=DeletePunishment
+	DoneProcedure=CleanEquipment		
 
 [punishment-Sit in the closet for # minutes]
 	Respit=7d
@@ -610,7 +669,7 @@
 	notif=#pPublicHumiliation=0
 	Respit=7d
 	notif=#eCollarAny=0
-	value=75
+	value=100
 	ValueUnit=hour
 	max=4
    	NewStatus=Punishment
@@ -627,7 +686,7 @@
 [punishment-Bind your hands behind your to a pole or tree in public view for # hours]
 	notif=#pPublicHumiliation=0
 	Respit=7d
-   	value=75
+   	value=100
    	ValueUnit=hour
    	LongRunning=1
    	max=4
@@ -924,7 +983,7 @@
 	value=10
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=24
 	resource=ButtPlug
 	Text=Insert a small butt plug. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1

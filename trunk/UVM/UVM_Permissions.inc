@@ -313,10 +313,9 @@
 	LowPct=40
 	DenyBelow=#zzRed
    	MinInterval=00:15
-   	Delay=00:05,00:30
+   	Delay=00:01,00:15
 	MaxWait=01:00
    	AddMerit=-5
-	Notify=1
 
 [permission-Drink One Soda/Energy Drink]
    	PreStatus=home
@@ -325,10 +324,9 @@
 	LowPct=35
 	DenyBelow=#zzRed
    	MinInterval=00:15
-   	Delay=00:05,00:30
+   	Delay=00:01,00:15
 	MaxWait=01:00
    	AddMerit=-10
-	Notify=1
 	ForgetPenalty=100
 	IgnorePenalty=150
 
@@ -339,10 +337,9 @@
 	LowPct=25
 	DenyBelow=#zzRed
    	MinInterval=00:30
-   	Delay=00:15,0:30
+   	Delay=00:01,0:30
 	MaxWait=02:00
    	AddMerit=-15
-	Notify=1
 	ForgetPenalty=150
 	IgnorePenalty=225
 
@@ -353,7 +350,6 @@
 	LowPct=35
 	DenyBelow=#zzRed
    	MinInterval=01:00
-   	Delay=00:05,00:15
+   	Delay=00:01,00:15
    	MaxWait=02:00
-   	Notify=1
    	AddMerit=-5

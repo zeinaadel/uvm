@@ -232,6 +232,11 @@
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 [job-Do yard work]
+	notif=#zzMonth=1
+	notif=#zzMonth=2
+	notif=#zzMonth=3
+	notif=#zzMonth=11
+	notif=#zzMonth=12
 	notif=#Housing=0
 	interval=5,7
 	respit=5d

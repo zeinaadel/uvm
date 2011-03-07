@@ -44,7 +44,7 @@
 	SetFlag=StatusRefresh
 
 [flag-StatusRefresh]
-	Duration=00:01
+	Duration=00:00:15
 	ReportFlag=0
 	ExpireProcedure=StatusRefresh
 
