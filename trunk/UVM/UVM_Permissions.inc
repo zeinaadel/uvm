@@ -256,8 +256,8 @@
 [permission-Do Extra Work]
    	PreStatus=home
 	HighMerits=#zzYellow
-	HighPct=25
-   	pct=50
+	HighPct=66
+   	pct=33
 	LowMerits=#zzRed
 	LowPct=75
    	MinInterval=00:01

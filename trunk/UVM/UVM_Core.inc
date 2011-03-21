@@ -44,9 +44,14 @@
 	SetFlag=StatusRefresh
 
 [flag-StatusRefresh]
-	Duration=00:00:15
+	Duration=00:00:05
 	ReportFlag=0
 	ExpireProcedure=StatusRefresh
+
+[Timer-NewReport]
+	Start=00:00
+   	End=23:00
+   	MakeNewReport=2
 
 [procedure-ClothingMale]
 	if=#ClothingMale=1
@@ -56,11 +61,7 @@
 	if=#ClothingFemale=1
 	SetFlag=ClothingFemale
 
-[procedure-Webcam]
-	notif=#Webcam=0
-	PoseCamera=Pose for your webcam.
-	
-	
+
 ;*******************************************************************
 ;* Normal
 ;*******************************************************************
@@ -70,6 +71,7 @@
 	SigninPenalty2=1
 	group=Home
 	popupgroup=Normal
+
 
 ;*******************************************************************
 ;* General Procedures
@@ -87,6 +89,11 @@
 [procedure-NoInput]
 	Message=You need to respond when your {$zzMaster} asks you a question.
 	AddMerits=-1
+	
+[procedure-Webcam]
+	notif=#Webcam=0
+	PoseCamera=Pose for your webcam.	
+
 
 ;*******************************************************************
 ;* Sound Procedures
@@ -111,6 +118,7 @@
 
 [procedure-Sound_Writing]
 	Sound=UVM_Sound_Writing.wav
+
 
 ;*******************************************************************
 ;* First-Run COnfiguration
