@@ -14,16 +14,42 @@
 	CameraInterval=00:01,00:10
 	Text=Report to me when finished.
 
-[job-Brush Your Teeth]
+[Job-AMteeth]
+	Title=Brush your teeth
+	Run=daily
+   	NewStatus=Personal_Care
+   	muststart=1
+   	MinTime=00:03
+   	QuickPenalty1=6
+   	QuickPenalty2=3
+	EndTime=16:00
+	ExpireAfter=02:00
+	ExpirePenalty=6
+	RemindPenalty=6
+	AddMerit=3
+	Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[Job-PMteeth]
+   	Title=Brush your teeth
 	Run=daily
 	NewStatus=Personal_Care
 	muststart=1
-	MinTime=00:03
 	QuickPenalty1=6
-	QuickPenalty2=3
+   	QuickPenalty2=3
+	MinTime=00:03
+	Respit=06:00
 	RemindPenalty=6
+	ExpireAfter=06:00
+	ExpirePenalty=6	
 	AddMerit=3
-	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+
+[Job-HairCut]
+	Title=Get a haircut
+	Interval=21,28
+	Respit=3d
+	RemindPenalty=10
+	PunishGroup=Shave
 
 [job-Exercise]
 	interval=5,7
@@ -38,6 +64,15 @@
 	RemindPenalty=30
 	AddMerit=15
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	
+[Job-Weigh]
+	interval=5,7
+	respit=1d
+   	Title=Record weight naked
+   	RemindPenalty=10
+   	ExpireAfter=02:00
+   	ExpirePenalty=50	
+   	input=How much do you weigh?
 
 [job-Body Grooming]
 	interval=7,14
@@ -91,7 +126,7 @@
 	AddMerit=10
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
-[job-Clean the kitchen]
+[job-Clean the kitchen and do dishes]
 	interval=2,3
 	respit=2d
 	NewStatus=house_work

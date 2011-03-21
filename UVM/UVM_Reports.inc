@@ -27,12 +27,7 @@
 [report-Changed clothes]
    	PreStatus=Normal
    	Procedure=ClothReport
-
-[Report-BETA ONLY-Did extra house or yard work]
-	PreStatus=Normal
-	input#=#minutes,How many minutes did you do extra house work?
-	multiply#=#minutes,1
-	AddMerit=#minutes	
+	
 	
 ;*******************************************************************
 ;* Status - Sleep
@@ -77,6 +72,7 @@
 		option=*
 		weight=1
 
+
 ;*******************************************************************
 ;* Status - Working
 ;*******************************************************************
@@ -101,6 +97,7 @@
 	NoInputProcedure=NoInput
 	Question=VanillaGuests
 	Procedure=ClothReport	
+
 
 ;*******************************************************************
 ;* Status - Going out
@@ -129,6 +126,7 @@
 	question=VanillaGuests
 	Procedure=ClothReport
 
+
 ;************************************************************************
 ;* Status - Guests
 ;************************************************************************
@@ -152,6 +150,7 @@
 	Question=HomeCold
 	Procedure=ClothReport
 
+
 ;************************************************************************
 ;* Status - Ill or Going On Vacation
 ;************************************************************************
@@ -169,6 +168,7 @@
 	ontop=1
 	input=What type of sickness did you have or where did you go on vacation?
 	NoInputProcedure=NoInput
+	
 
 ;*******************************************************************
 ;* Confessions

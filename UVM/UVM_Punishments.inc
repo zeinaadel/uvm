@@ -68,7 +68,6 @@
 	value=10
 	ValueUnit=day	
 	Forbid=Have an orgasm
-	LongRunning=1
 	Text=You will wear a chastity device if you have one.
 	Text=You are denied permission to cum. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
@@ -193,7 +192,7 @@
    	value=50
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Nipples
    	Text=Wear nipple clamps. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -320,7 +319,7 @@
    	value=40
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -339,7 +338,7 @@
    	value=45
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a drool gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -358,7 +357,7 @@
    	value=45
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a ring gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -377,7 +376,7 @@
    	value=50
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a harness ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -396,7 +395,7 @@
    	value=40
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a stuffed gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -415,7 +414,7 @@
    	value=50
    	ValueUnit=hour
    	LongRunning=1
-   	max=4
+   	max=2
    	resource=Gag
    	Text=Wear a panel ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -434,7 +433,7 @@
 	value=100
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Gag
 	Text=Wear an inflatable gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -453,7 +452,7 @@
 	value=50
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Gag
 	Text=Wear a muzzle gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -504,7 +503,7 @@
 	group=humiliation
 	value=1
 	ValueUnit=minute
-	max=60
+	max=30
 	resource=Gag
 	Text=Suck on a dildo. No teeth!| Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -520,7 +519,7 @@
 	group=humiliation
 	value=1
 	ValueUnit=minute
-	max=60
+	max=30
 	resource=Gag
 	Text=Suck on a dildo. No teeth!| Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -537,7 +536,7 @@
 	value=5
 	ValueUnit=minute
 	LongRunning=1
-	max=60
+	max=30
 	Text=Sit in the closet. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -594,7 +593,7 @@
 	group=humiliation
 	value=5
 	ValueUnit=minute
-	max=30
+	max=15
 	Text=Hump a piece of furniture. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
 	NewStatus=Punishment
@@ -653,7 +652,7 @@
 	value=90
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=24
 	Text=You may only crawl. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -671,7 +670,7 @@
 	notif=#eCollarAny=0
 	value=100
 	ValueUnit=hour
-	max=4
+	max=2
    	NewStatus=Punishment
 	resource=Collar
 	Text=Chain yourself to a post in public view. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -724,7 +723,7 @@
 	value=60
 	ValueUnit=hour
 	NewStatus=Punishment
-	max=4
+	max=2
 	resource=Legs
 	Resource=Hands
 	Text=You must bind yourself with an X-Bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -742,7 +741,7 @@
 	value=60
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Legs
 	Text=Bind your legs with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -761,7 +760,7 @@
 	value=60
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	Resource=Hands
 	Text=Bind your hands with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -779,7 +778,7 @@
 	value=60
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Legs
 	Text=Shackle your legs together. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -797,7 +796,7 @@
 	value=50
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Hands
 	Text=Bind your hands together in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -815,7 +814,7 @@
 	value=60
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Hands
 	Text=Wear bondage mittens. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -832,7 +831,7 @@
 	value=70
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Hands
 	Text=Bind your hands together in back. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -851,7 +850,7 @@
 	value=30
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Collar
 	resource=Hands
 	Text=Bind your hands to your collar in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -871,7 +870,7 @@
 	value=80
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Collar
 	resource=Hands
 	Text=Bind your hands to your collar in back.  | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -890,7 +889,7 @@
 	notif=#pHogtie=0
 	value=90
 	ValueUnit=hour
-	max=4
+	max=2
    	NewStatus=Punishment
 	resource=Hands
 	resource=Feet
@@ -907,7 +906,7 @@
 	Respit=7d
 	value=75
 	ValueUnit=hour
-	max=4
+	max=2
    	NewStatus=Punishment
 	resource=Hands
 	resource=Feet
@@ -925,7 +924,7 @@
 	value=90
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Hands
 	resource=Feet
 	Text=Bind yourself so you can only crawl. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -947,7 +946,7 @@
 	value=30
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Eyes
 	NewStatus=Punishment
 	Text=Wear a blindfold. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -964,7 +963,7 @@
 	value=70
 	ValueUnit=hour
 	LongRunning=1
-	max=4
+	max=2
 	resource=Head
 	Text=Wear a hood. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -1054,7 +1053,7 @@
 	notif=#eCollarPosture=0
 	StartFlag=Collared
    	value=25
-	Max=4
+	Max=2
    	ValueUnit=hour
    	LongRunning=1
    	resource=Collar
