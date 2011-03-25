@@ -171,12 +171,13 @@
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment
 
-[punishment-Tape rice to the bottom of your feet for # hours]
+[punishment-Tape rice to the bottom of your feet for # minutes]
 	Respit=7d
-	value=30
-	ValueUnit=hour
+	value=0.5
+	ValueUnit=minute
 	LongRunning=1
-	max=16
+	min=15
+	max=120
 	Text=Tape rice to the bottom of you feet. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -186,13 +187,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear nipple clamps for # hours]
+[punishment-Wear nipple clamps for # minutes]
 	Respit=7d
 	notif=#eNippleClamps=0
-   	value=50
-   	ValueUnit=hour
+   	value=1
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=15
+   	max=60
    	resource=Nipples
    	Text=Wear nipple clamps. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -203,14 +205,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear clover nipple clamps for # hours]
+[punishment-Wear clover nipple clamps for # minutes]
 	Respit=7d
 	notif=#eNippleClamps=0
 	notif=#eNippleClampsClover=0
-   	value=75
-   	ValueUnit=hour
+   	value=1.5
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=15
+   	max=60
    	resource=Nipples
    	Text=Wear clover nipple clamps. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -221,14 +224,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear clover nipple clamps on your ears for # hours]
+[punishment-Wear clover nipple clamps on your ears for # minutes]
 	Respit=7d
 	notif=#eNippleClamps=0
 	notif=#eNippleClampsClover=0
-   	value=75
+   	value=1.5
    	ValueUnit=hour
    	LongRunning=1
-   	max=2
+   	min=15
+   	max=60
    	resource=Nipples
    	Text=Wear clover nipple clamps on your ears. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -239,11 +243,11 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear clover nipple clamps on your nose for # hours]
+[punishment-Wear clover nipple clamps on your nose for # minutes]
 	Respit=7d
 	notif=#eNippleClamps=0
 	notif=#eNippleClampsClover=0
-   	value=75
+   	value=1.5
    	ValueUnit=hour
    	LongRunning=1
    	max=2
@@ -312,14 +316,15 @@
 ;* Gag Punishments
 ;*******************************************************************
 
-[punishment-Wear a ballgag for # hours]
+[punishment-Wear a ballgag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagBall=0
    	value=40
-   	ValueUnit=hour
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -331,14 +336,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a drool gag for # hours]
+[punishment-Wear a drool gag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagDrool=0
-   	value=45
-   	ValueUnit=hour
+   	value=0.75
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a drool gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -350,14 +356,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a ring gag for # hours]
+[punishment-Wear a ring gag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagRing=0
-   	value=45
-   	ValueUnit=hour
+   	value=0.75
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a ring gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -369,14 +376,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a harness ballgag for # hours]
+[punishment-Wear a harness ballgag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagBallHarness=0
-   	value=50
-   	ValueUnit=hour
+   	value=1
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a harness ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -388,14 +396,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a stuffed gag for # hours]
+[punishment-Wear a stuffed gag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagStuffed=0
-   	value=40
-   	ValueUnit=hour
+   	value=0.5
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a stuffed gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -407,14 +416,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a panel ballgag for # hours]
+[punishment-Wear a panel ballgag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagBallPanel=0
-   	value=50
-   	ValueUnit=hour
+   	value=1
+   	ValueUnit=minute
    	LongRunning=1
-   	max=2
+   	min=30
+   	max=120
    	resource=Gag
    	Text=Wear a panel ballgag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -426,14 +436,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear an inflatable gag for # hours]
+[punishment-Wear an inflatable gag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagInflatable=0
 	value=100
-	ValueUnit=hour
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=60
 	resource=Gag
 	Text=Wear an inflatable gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -445,14 +456,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a muzzle gag for # hours]
+[punishment-Wear a muzzle gag for # minutes]
 	Respit=7d
 	notif=#pGag=0
 	notif=#eGagMuzzle=0
-	value=50
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Gag
 	Text=Wear a muzzle gag. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -628,13 +640,14 @@
 	DeleteAllowed=1
 	DeleteProcedure=DeletePunishment
 
-[punishment-Chain your collar to a post for # hours]
+[punishment-Chain your collar to a post for # minutes]
 	Respit=7d
 	group=humiliation
 	notif=#eCollarAny=0
-	value=75
-	ValueUnit=hour
-	max=4
+	value=1.25
+	ValueUnit=minute
+	min=30
+	max=120
    	NewStatus=Punishment
 	resource=Collar
 	Text=Chain yourself to a post. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -646,13 +659,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-You may only crawl for # hours]
+[punishment-You may only crawl for # minutes]
 	Respit=7d
 	group=humiliation
 	value=90
-	ValueUnit=hour
+	ValueUnit=minute
 	LongRunning=1
-	max=24
+	min=30
+	max=1440
 	Text=You may only crawl. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
 	StartFlag=PunishmentCamera
@@ -717,13 +731,14 @@
 ;*******************************************************************
 ;* Bondage
 ;*******************************************************************
-[punishment-Bind yourself with an X-Bar for # hours]
+[punishment-Bind yourself with an X-Bar for # minutes]
 	notif=#eBarX=0
 	Respit=7d
-	value=60
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	NewStatus=Punishment
-	max=2
+	min=30
+	max=120
 	resource=Legs
 	Resource=Hands
 	Text=You must bind yourself with an X-Bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -735,13 +750,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your legs with a spreader bar for # hours]
+[punishment-Bind your legs with a spreader bar for # minutes]
 	notif=#eBarSpreader=0
 	Respit=7d
 	value=60
-	ValueUnit=hour
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Legs
 	Text=Bind your legs with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -754,13 +770,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your hands with a spreader bar for # hours]
+[punishment-Bind your hands with a spreader bar for # minutes]
 	notif=#eBarSpreader=0
 	Respit=7d
-	value=60
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	Resource=Hands
 	Text=Bind your hands with a spreader bar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -773,12 +790,13 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your legs for # hours]
+[punishment-Bind your legs for # minutes]
 	Respit=7d
-	value=60
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Legs
 	Text=Shackle your legs together. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -791,12 +809,13 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your hands in front for # hours]
+[punishment-Bind your hands in front for # minutes]
 	Respit=7d
-	value=50
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Hands
 	Text=Bind your hands together in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -808,13 +827,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear bondage mittens for # hours]
+[punishment-Wear bondage mittens for # minutes]
 	Respit=7d
 	notif=#eBondageMittens=0
-	value=60
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Hands
 	Text=Wear bondage mittens. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -826,12 +846,13 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your hands in back for # hours]
+[punishment-Bind your hands in back for # minutes]
 	Respit=7d
-	value=70
-	ValueUnit=hour
+	value=1
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Hands
 	Text=Bind your hands together in back. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -844,13 +865,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your hands to your collar for # hours]
+[punishment-Bind your hands to your collar for # minutes]
 	Respit=7d
 	notif=#eCollarAny=0
-	value=30
-	ValueUnit=hour
+	value=0.5
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Collar
 	resource=Hands
 	Text=Bind your hands to your collar in front. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -864,13 +886,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind your hands to your collar in back for # hours]
+[punishment-Bind your hands to your collar in back for # minutes]
 	Respit=7d
 	notif=#eCollarAny=0
-	value=80
-	ValueUnit=hour
+	value=1.2
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=15
+	max=120
 	resource=Collar
 	resource=Hands
 	Text=Bind your hands to your collar in back.  | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -884,12 +907,13 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Hogtie yourself for # hours]
+[punishment-Hogtie yourself for # minutes]
 	Respit=7d
 	notif=#pHogtie=0
-	value=90
-	ValueUnit=hour
-	max=2
+	value=1.5
+	ValueUnit=minute
+	min=30
+	max=120
    	NewStatus=Punishment
 	resource=Hands
 	resource=Feet
@@ -902,11 +926,12 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind yourself spread-eagle for # hours]
+[punishment-Bind yourself spread-eagle for # minutes]
 	Respit=7d
-	value=75
-	ValueUnit=hour
-	max=2
+	value=1.1
+	ValueUnit=minute
+	min=30
+	max=120
    	NewStatus=Punishment
 	resource=Hands
 	resource=Feet
@@ -919,12 +944,13 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Bind yourself so you may only crawl for # hours]
+[punishment-Bind yourself so you may only crawl for # minutes]
 	Respit=7d
-	value=90
-	ValueUnit=hour
+	value=1.5
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=30
+	max=120
 	resource=Hands
 	resource=Feet
 	Text=Bind yourself so you can only crawl. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -940,13 +966,14 @@
 ;*******************************************************************
 ;* Other Punishments
 ;*******************************************************************
-[punishment-Wear a blindfold for # hours]
+[punishment-Wear a blindfold for # minutes]
 	Respit=7d
 	notif=#eBlindfold=0
-	value=30
-	ValueUnit=hour
+	value=0.5
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=15
+	max=120
 	resource=Eyes
 	NewStatus=Punishment
 	Text=Wear a blindfold. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
@@ -957,13 +984,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a hood for # hours]
+[punishment-Wear a hood for # minutes]
 	Respit=7d
 	notif=#eHood=0
-	value=70
-	ValueUnit=hour
+	value=1.2
+	ValueUnit=minute
 	LongRunning=1
-	max=2
+	min=15
+	max=120
 	resource=Head
 	Text=Wear a hood. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -976,13 +1004,14 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Insert a small butt plug for # hours]
+[punishment-Insert a small butt plug for # minutes]
 	Respit=7d
 	notif=#eButtPlug=0
-	value=10
-	ValueUnit=hour
+	value=0.1
+	ValueUnit=minute
 	LongRunning=1
-	max=24
+	min=30
+	max=1440
 	resource=ButtPlug
 	Text=Insert a small butt plug. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -993,13 +1022,14 @@
 	MinTimeProcedure=Time-up
 	DoneProcedure=CleanEquipment
 
-[punishment-Insert a large butt plug for # hours]
+[punishment-Insert a large butt plug for # minutes]
 	Respit=7d
 	notif=#eButtPlugLarge=0
-	value=15
-	ValueUnit=hour
+	value=0.2
+	ValueUnit=minute
 	LongRunning=1
-	max=4
+	min=15
+	max=120
 	resource=ButtPlug
 	Text=Insert a large butt plug. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
    	MustStart=1
@@ -1047,14 +1077,15 @@
 	DeleteProcedure=DeletePunishment
 	DoneProcedure=CleanEquipment
 
-[punishment-Wear a posture collar for # hours]
+[punishment-Wear a posture collar for # minutes]
 	Respit=7d
 	notif=#eCollarAny=0
 	notif=#eCollarPosture=0
 	StartFlag=Collared
    	value=25
-	Max=2
-   	ValueUnit=hour
+   	min=60
+	Max=120
+   	ValueUnit=minute
    	LongRunning=1
    	resource=Collar
    	Text=Wear a posture collar. | Duration: {!zzMinTime} | Completed: {!zzRunTime}
