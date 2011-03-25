@@ -27,7 +27,7 @@
 	ExpirePenalty=6
 	RemindPenalty=6
 	AddMerit=3
-	Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 [Job-PMteeth]
    	Title=Brush your teeth
@@ -42,7 +42,7 @@
 	ExpireAfter=06:00
 	ExpirePenalty=6	
 	AddMerit=3
-	Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
 
 [Job-HairCut]
 	Title=Get a haircut
@@ -97,7 +97,17 @@
 	Text=Report to me when finished.
 	PointCamera=Point the camera where you will be doing your house work (if possible).
 	CameraInterval=00:01,00:10
-
+	
+[Job-Mail]
+ 	Title=Bring in and sort mail
+   	Run=daily
+   	NoRun=Sunday
+   	DeleteAllowed=0
+   	Respit=20:00
+   	RemindPenalty=1
+   	ExpireAfter=01:00
+   	ExpirePenalty=1
+	
 [job-Take out The Garbage]
 	interval=7
 	Respit=7d
@@ -285,3 +295,9 @@
 	RemindPenalty=30
 	AddMerit=15
 	Text=Minimum Duration: {!zzMinTime} | Completed: {!zzRunTime}
+	
+	
+;*******************************************************************
+;* Maintenance
+;*******************************************************************	
+
