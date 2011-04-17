@@ -29,19 +29,18 @@
 	LowPct=37
 	DenyBelow=#zzRed
 	Delay=00:05,00:15
-	Addmerit=-30
 	ForgetPenalty=120
 	IgnorePenalty=180
+	SetFlag=SubPerMin
 
 [status-TV]
 	group=home
 	SigninInterval=01:00
 	SigninPenalty1=10
 	SigninPenalty2=1
-	MaxTime=04:00
 	SlowPenalty1=10
 	SlowPenalty2=1
-	text=You may now watch TV or play a video game for up to 4 hours. Time Passed: {!zzRunTime}
+	text=You may now watch TV or play a video game. Time Passed: {!zzRunTime}
 	text=Report when you have finished and turned everything off.
 
 [report-TV is now turned off]
@@ -50,6 +49,7 @@
 	OnTop=1
 	input=What did you watch?
 	NoInputProcedure=NoInput
+	Procedure=StopPerMin
 
 ;************************************************************************
 ;*** Permission - Internet
@@ -65,16 +65,16 @@
 	MinInterval=2:00
 	ForgetPenalty=120
 	IgnorePenalty=180
+	SetFlag=SubPerMin
 
 [status-Internet]
 	group=home
 	SigninInterval=00:30
 	SigninPenalty1=10
 	SigninPenalty2=1
-	MaxTime=02:00
 	SlowPenalty1=10
 	SlowPenalty2=1
-	text=You may now browse the internet for up to 2 hours. Time Elapsed: {!zzRunTime}
+	text=You may now browse the internet. Time Elapsed: {!zzRunTime}
 	text=Report when you have finished and closed.
 
 [report-Done Browsing the Internet]
@@ -83,6 +83,7 @@
 	OnTop=1
 	input=What did you do on the internet?
 	NoInputProcedure=NoInput
+	Procedure=StopPerMin
 
 ;*******************************************************************
 ;* Permission - Eat
@@ -152,9 +153,9 @@
 	MinInterval=08:00
 	DenyStatus=Cold_bath
 	EndText=Finished bath
-	Addmerit=-10
 	ForgetPenalty=60
 	IgnorePeanlty=90
+	SetFlag=SubPerMin
 	
 [permission-Take a cold bath/shower]
 	PreStatus=Normal

@@ -48,6 +48,28 @@
 	ReportFlag=0
 	ExpireProcedure=StatusRefresh
 
+[procedure-AddPerMin]
+	SetFlag=AddPerMin
+	AddMerits=1
+	
+[flag-AddPerMin]
+	Duration=00:01:00
+	ReportFlag=0
+	ExpireProcedure=AddPerMin
+	
+[procedure-SubPerMin]
+	SetFlag=SubPerMin
+	AddMerits=-1
+	
+[flag-SubPerMin]
+	Duration=00:01:00
+	ReportFlag=0
+	ExpireProcedure=SubPerMin
+	
+[procedure-StopPerMin]
+	RemoveFlag=AddPerMin
+	RemoveFlag=SubPerMin
+
 [Timer-NewReport]
 	Start=00:00
    	End=23:00
@@ -71,7 +93,6 @@
 	SigninPenalty2=1
 	group=Home
 	popupgroup=Normal
-
 
 ;*******************************************************************
 ;* General Procedures
